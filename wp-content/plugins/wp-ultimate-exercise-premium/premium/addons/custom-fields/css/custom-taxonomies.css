@@ -1,0 +1,19 @@
+#wpuep_editing {
+  margin-top: 15px;
+  font-weight: bold; }
+
+.wpuep_editing {
+  display: none; }
+
+#wpuep-tags-table tr {
+  height: 32px; }
+#wpuep-tags-table #tag {
+  width: 20%; }
+#wpuep-tags-table #singular-name {
+  width: 20%; }
+#wpuep-tags-table #name {
+  width: 20%; }
+#wpuep-tags-table #slug {
+  width: 20%; }
+#wpuep-tags-table #action {
+  width: 20%; }

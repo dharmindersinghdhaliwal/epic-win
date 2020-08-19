@@ -1,0 +1,78 @@
+/**
+ * Torbara Maxx-Fitness Theme for WordPress, exclusively on Envato Market: http://themeforest.net/user/torbara
+ * @encoding     UTF-8
+ * @version      6.0.0
+ * @copyright    Copyright (C) 2015 Torbara (http://torbara.com). All rights reserved.
+ * @license      GNU General Public License version 2 or later, see http://www.gnu.org/licenses/gpl-2.0.html
+ * @author       Alexandr Khmelnytsky (support@torbara.com)
+ */
+
+//
+// Loads Woocommerce Styles
+//
+// ========================================================================
+
+// UIkit variables
+
+@import "../../../plugins/tt-warp7/warp/vendor/uikit/less/uikit-variables.less";
+@import "uikit/variables.less";
+
+@import "../../../plugins/tt-warp7/warp/systems/wordpress/less/woocommerce.less";
+
+// Defaults
+@import "uikit/base.less";
+
+// Layout
+@import "uikit/grid.less";
+@import "uikit/panel.less";
+@import "uikit/article.less";
+@import "uikit/comment.less";
+
+// Navs
+@import "uikit/nav.less";
+@import "uikit/navbar.less";
+@import "uikit/subnav.less";
+@import "uikit/breadcrumb.less";
+@import "uikit/pagination.less";
+@import "uikit/tab.less";
+
+// Elements
+@import "uikit/list.less";
+@import "uikit/description-list.less";
+@import "uikit/table.less";
+@import "uikit/form.less";
+
+// Common
+@import "uikit/button.less";
+@import "uikit/icon.less";
+@import "uikit/close.less";
+@import "uikit/badge.less";
+@import "uikit/alert.less";
+@import "uikit/thumbnail.less";
+@import "uikit/overlay.less";
+@import "uikit/progress.less";
+
+// JavaScript
+@import "uikit/dropdown.less";
+@import "uikit/modal.less";
+@import "uikit/offcanvas.less";
+@import "uikit/tooltip.less";
+
+// Need to be loaded last
+@import "uikit/text.less";
+@import "uikit/utility.less";
+
+@import "woocommerce/woocommerce-layer.less";
+
+.woocommerce button.button.alt, .woocommerce-page button.button.alt {
+    color: @global-link-color;
+}
+
+.woocommerce button.button.alt, .woocommerce-page button:hover.button.alt {
+    color: @global-link-hover-color;
+}
+
+.woocommerce button.button.alt, .woocommerce-page button:active.button.alt,
+.woocommerce button.button.alt, .woocommerce-page button:focus.button.alt {
+    color: @global-link-hover-color;
+}

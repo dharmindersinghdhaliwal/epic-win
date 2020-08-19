@@ -1,0 +1,3415 @@
+# Translation of WP Ultimate Exercise in Dutch
+# This file is distributed under the same license as the WP Ultimate Exercise package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-22 11:36:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WP Ultimate Exercise\n"
+
+#: wp-ultimate-exercise-premium/core/helpers/models/exercise.php:167
+#: wp-ultimate-exercise-premium/core/helpers/models/exercise.php:272
+msgid "minute"
+msgstr "minuut"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/functionality/add_to_shopping_list.php:43
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1549
+msgid "Add to Shopping List"
+msgstr "Voeg toe aan Winkellijst"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/functionality/add_to_shopping_list.php:44
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1556
+msgid "This exercise is in your Shopping List"
+msgstr "Dit recept zit in jouw Winkellijst"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/functionality/favorite.php:36
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1809
+msgid "Add to your Favorite Exercies"
+msgstr "Voeg toe aan je Favoriete Recepten"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/functionality/favorite.php:37
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1816
+msgid "This exercise is in your Favorite Exercies"
+msgstr "Dit recept zit in je Favoriete Recepten"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/functionality/print_button.php:30
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:165
+msgid "Print Exercise"
+msgstr "Recept Afdrukken"
+
+#: wp-ultimate-exercise-premium/core/helpers/models/exercise.php:169
+#: wp-ultimate-exercise-premium/core/helpers/models/exercise.php:274
+msgid "hours"
+msgstr "uren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:163
+msgid "Print Button Tooltip"
+msgstr "Print Knop Tooltip"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:164
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1548
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1555
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1808
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1815
+msgid "Text to show when someone hovers over the button."
+msgstr "Tekst om te tonen wanneer iemand over de knop komt."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:622
+msgid "Show the Yum button."
+msgstr "Toon de Yum knop."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1487
+msgid "Enable Delete Button"
+msgstr "Delete Knop Tonen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1488
+msgid "Users can delete their own saved menus."
+msgstr "Gebruikers kunnen hun eigen menus verwijderen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1503
+msgid "Show Ingredient Notes"
+msgstr "Toon Ingrediënt Notities"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1504
+msgid "Ingredients with different notes will be handled as different ingredients."
+msgstr "Ingrediënten met verschillende notities worden behandeld als verschillende ingrediënten."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1518
+msgid "Add to Shopping List Button"
+msgstr "Voeg toe aan Winkellijst Knop"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1547
+msgid "Add to Shopping List Button Tooltip"
+msgstr "Voeg toe aan Winkellijst Knop Tooltip"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1554
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1814
+msgid "Tooltip after adding"
+msgstr "Tooltip na toevoegen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1561
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1821
+msgid "You can use HTML to link to the relevant page in the tooltips:"
+msgstr "Je kan HTML gebruiken om naar de relevante pagina te linken in de tooltips:"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1703
+msgid "Include Exercise List"
+msgstr "Lijst Recepten Tonen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1704
+msgid "Include of list of the exercises in the menu when printing the shopping list."
+msgstr "Toon een lijst van de recepten in het menu wanneer je de winkellijst afdrukt."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1807
+msgid "Favorite Exercies Button Tooltip"
+msgstr "Favoriete Recepten Knop Tooltip"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1860
+msgid "Required role or capability"
+msgstr "Nodige rol of capability"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1861
+msgid "Only users with this role or capability can edit the Nutritional Information."
+msgstr "Enkel gebruikers met deze rol of capability kunnen de Voedingswaarden aanpassen."
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:114
+msgid "Delete Menu"
+msgstr "Menu Verwijderen"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:106
+msgid "Show Images"
+msgstr "Toon Afbeeldingen"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:290
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:322
+msgid "Instruction Step Image"
+msgstr "Instructie Stap Afbeelding"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:215
+msgid "Exercise Image Title"
+msgstr "Recept Afbeelding Titel"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:216
+msgid "Title tag to be used for the exercise image."
+msgstr "Titel tag om te gebruiken voor de recept afbeelding."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:224
+msgid "Use exercise title"
+msgstr "Gebruik titel van recept"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:572
+msgid "Connect your exercises to leading online grocers with the Chicory \"get ingredients\" button."
+msgstr "Verbind jouw recepten met online winkels met de Chicory \"get ingredients\" knop."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:582
+msgid "I agree to Chicory's"
+msgstr "I ga akkoord met Chicory's"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:582
+msgid "terms of use"
+msgstr "gebruiksvoorwaarden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:590
+msgid "You need to agree to Chicory's terms of use if you want the button to show up."
+msgstr "Je moet akkoord gaan met de Chicory gebruiksvoorwaarden als je wil dat de knop verschijnt."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:774
+msgid "Fields"
+msgstr "Velden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:775
+msgid "Fields to show in the User Submission form."
+msgstr "Velden om te tonen in het Gebruikersinzending formulier."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1173
+msgid "Allow visitors to preview their submission"
+msgstr "Sta bezoekers toe om een voorbeeld van hun inzending te bekijken"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1188
+msgid "Required Fields"
+msgstr "Verplichtte Velden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1189
+msgid "Fields that are required to fill in."
+msgstr "Velden die men verplicht moet invullen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1207
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1213
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:126
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/user-submissions.php:291
+msgid "Security Question"
+msgstr "Veiligheidsvraag"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1214
+msgid "Use a security question to prevent spam."
+msgstr "Gebruik een veiligheidsvraag om ongewenste inzendingen te voorkomen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1220
+msgid "Question"
+msgstr "Vraag"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1221
+msgid "The question your visitors have to answer."
+msgstr "De vraag die je bezoekers moeten beantwoorden."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1231
+msgid "Answer"
+msgstr "Antwoord"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1232
+msgid "The correct answer to that question."
+msgstr "Het correcte antwoord op die vraag."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1311
+msgid "Approval Rules"
+msgstr "Regels Goedkeuring"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1317
+msgid "Auto approve"
+msgstr "Automatisch goedkeuren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1341
+msgid "Auto approve specific users"
+msgstr "Specifieke gebruikers automatisch goedkeuren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1342
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1356
+msgid "Publish exercises from these users immediately on submission."
+msgstr "Ingezonden recepten van deze gebruikers onmiddellijk publiceren."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1355
+msgid "Auto approve users with role or capability"
+msgstr "Gebruikers met rol of capability automatisch goedkeuren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1889
+msgid "Import order"
+msgstr "Import volgorde"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1893
+msgid "Import oldest exercises first"
+msgstr "Oudste recepten eerst importeren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1897
+msgid "Import latest exercises first"
+msgstr "Nieuwste recepten eerst importeren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:147
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/import-fdx.php:26
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/import-fdx.php:38
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/templates/before_importing.php:4
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/templates/before_importing.php:15
+msgid "Import FDX"
+msgstr "Import FDX"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:266
+msgid "guests"
+msgstr "bezoekers"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:349
+msgid "List of submissions by currently logged in user with edit ability"
+msgstr "Lijst van inzendingen door de momenteel ingelogde gebruiker (met bewerken mogelijk)"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:134
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/user-submissions.php:310
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/user-submissions.php:300
+msgid "Please fill in these required fields:"
+msgstr "Gelieve de volgende verplichtte velden in te vullen:"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1066
+msgid "Backwards Compatibility"
+msgstr "Compatibiliteit met vorige versie"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1574
+msgid "Consolidate Ingredients"
+msgstr "Ingrediënten Samenvoegen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1575
+msgid "Convert units to be able to consolidate ingredients into 1 line."
+msgstr "Eenheden converteren om ingrediënten te kunnen samenvoegen op 1 lijn."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:247
+msgid "Manage Exercise Egrids"
+msgstr "Recepten Egrids beheren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:485
+msgid "Old version, use Egrid shortcode button instead"
+msgstr "Oude versie, gebruik de Egrid knop in de plaats"
+
+#: wp-ultimate-exercise-premium/premium/addons/template-editor/templates/parser.php:506
+msgid "Please set a Preview Exercise in the settings first."
+msgstr "Gelieve eerst een Voorbeeld Recept te selecteren in de instellingen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:202
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:235
+msgid "Instruction Images Title"
+msgstr "Instructie Afbeeldingen Titel"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:236
+msgid "Title tag to be used for instruction images."
+msgstr "Titel tag om te gebruiken bij instructie afbeeldingen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:220
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:240
+msgid "Use media attachment title"
+msgstr "Gebruik titel van media attachment"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:244
+msgid "Use instruction text"
+msgstr "Gebruik instructie tekst"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:325
+msgid "Use Nofollow"
+msgstr "Gebruik Nofollow"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:326
+msgid "Add the nofollow attribute to custom ingredient links."
+msgstr "Voeg het nofollow attribuut toe aan eigen ingrediënten links."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1397
+msgid "Use Media Manager"
+msgstr "Gebruik Media Manager"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1398
+msgid "Let logged in users use the Media Manager to upload images"
+msgstr "Laat ingelogde gebrukers de Media Manager gebruiken voor het opladen van afbeeldingen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1767
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:426
+msgid "Favorite Exercies"
+msgstr "Favoriete Recepten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1791
+msgid "Use the following shortcode to display the list of favorite exercises:"
+msgstr "Gebruik de volgende shortcode om de lijst met favoriete recepten weer te geven:"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1801
+msgid "Enable Button"
+msgstr "Knop Activeren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:429
+msgid "List logged in user's Favorite Exercies"
+msgstr "Lijst van Favoriete Recepten van de ingelogde gebruiker"
+
+#: wp-ultimate-exercise-premium/premium/addons/favorite-exercises/favorite-exercises.php:87
+msgid "You don't have any favorite exercises."
+msgstr "Je hebt nog geen favoriete recepten."
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:29
+msgid "Without Nutritional Information"
+msgstr "Zonder Voedingswaarden"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:32
+msgid "With Nutritional Information"
+msgstr "Met Voedingswaarden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1249
+msgid "Allow Multiselect"
+msgstr "Multiselect Gebruiken"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1250
+msgid "Allow users to select multiple terms per category."
+msgstr "Laat gebruikers meerdere termen per categorie selecteren."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1853
+msgid "Show Notice"
+msgstr "Toon Melding"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1854
+msgid "Show notice to update Nutritional Information after updating a exercise."
+msgstr "Toon melding om Voedingswaarde bij te werken na het opslaan van een recept."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2045
+msgid "Use Yandex metadata"
+msgstr "Gebruik Yandex metadata"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2046
+msgid "Add a resultPhoto meta field for Yandex."
+msgstr "Voeg een resultPhoto metadata veld toe voor Yandex."
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:59
+msgid "Visitor"
+msgstr "Bezoeker"
+
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:10
+msgid "Optional plural version of this ingredient."
+msgstr "Meervoud van dit ingrediënt."
+
+#: wp-ultimate-exercise-premium/core/helpers/notices.php:30
+msgid "other notices ignored"
+msgstr "overige berichten genegeerd"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:142
+#: wp-ultimate-exercise-premium/premium/addons/import-xml/import-xml.php:26
+#: wp-ultimate-exercise-premium/premium/addons/import-xml/import-xml.php:38
+#: wp-ultimate-exercise-premium/premium/addons/import-xml/templates/before_importing.php:4
+#: wp-ultimate-exercise-premium/premium/addons/import-xml/templates/before_importing.php:15
+msgid "Import XML"
+msgstr "Importeer XML"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:152
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/export-xml.php:35
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/export-xml.php:47
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/templates/before_importing.php:4
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/templates/before_importing.php:18
+msgid "Export XML"
+msgstr "Exporteer XML"
+
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/export-xml.php:58
+msgid "You haven't selected any exercises to export."
+msgstr "Je hebt geen recepten geselecteerd om te exporteren."
+
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/export-xml.php:78
+msgid "Download XML"
+msgstr "Download XML"
+
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/templates/before_importing.php:5
+msgid "Select exercises"
+msgstr "Selecteer recepten"
+
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/templates/before_importing.php:10
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/ingredient-groups.php:55
+msgid "Select"
+msgstr "Selecteer"
+
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/templates/before_importing.php:10
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/ingredient-groups.php:57
+msgid "None"
+msgstr "Geen"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:57
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:89
+msgid "Lines starting with a ! will be starting a new group."
+msgstr "Lijnen die starten met een ! zullen een groep worden."
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/ingredient-groups.php:43
+msgid "Set group for selected ingredients"
+msgstr "Stel groep in voor geselecteerde ingrediënten"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/partner/bigoven.php:16
+msgid "BigOven - Save exercise or add to grocery list"
+msgstr "BigOven - Sla recepten of voeg toe aan winkellijst"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:559
+msgid "Partner Integrations"
+msgstr "Partner Integraties"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:608
+msgid "Show save exercise to BigOven button."
+msgstr "Toon sla op naar BigOven knop."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:615
+msgid "Show save exercise to Food Fanatic button."
+msgstr "Toon sla op naar Food Fanatic knop."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:127
+msgid "Import ExerciseCard exercises"
+msgstr "Importeer ExerciseCard recepten"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/import-exercisecard.php:26
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/import-exercisecard.php:38
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/before_importing.php:4
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/before_importing.php:44
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:6
+msgid "Import ExerciseCard"
+msgstr "Importeer ExerciseCard"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/import-exercisecard.php:289
+msgid "Adapted"
+msgstr "Bron"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/import-exercisecard.php:290
+msgid "Adapted Link"
+msgstr "Bron Link"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:435
+msgid "Include Font Awesome"
+msgstr "Font Awesome gebruiken"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:436
+msgid "You can disable this if your theme already includes Font Awesome."
+msgstr "Je kan dit uitschakelen indien je theme al Font Awesome gebruikt."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1179
+msgid "After-submission text"
+msgstr "Tekst na inzending"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1180
+msgid "Text to be shown after a user has submitted a exercise."
+msgstr "Tekst die getoond wordt nadat een gebruiker een recept heeft ingezonden."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1180
+msgid "HTML can be used."
+msgstr "HTML kan gebruikt worden."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1284
+msgid "Hide Category Terms"
+msgstr "Categorie termen verbergen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1297
+msgid "Hide Tag Terms"
+msgstr "Tag termen verbergen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1524
+msgid "Show add to shopping list button for"
+msgstr "Toon toevoegen aan winkellijst knop voor"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:242
+msgid "Premium only"
+msgstr "Enkel Premium"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:362
+msgid "List Menus by user"
+msgstr "Toon menus van gebruiker"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:160
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:372
+msgid "Currently logged in user"
+msgstr "Momenteel ingelogde gebruiker"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1581
+msgid "Unit System Dropdown"
+msgstr "Eenheid Systeem Selectie"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1582
+msgid "Users can use a dropdown to select the unit system they want."
+msgstr "Gebruikers kunnen selecteren welk eenheid systeem ze willen zien."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1589
+msgid "Default Unit System"
+msgstr "Standaard Eenheid Systeem"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1613
+msgid "Number of unit systems displayed in the shopping list."
+msgstr "Aantal eenheid systemen die getoond worden in de winkellijst."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2133
+msgid "Print Exercise CSS"
+msgstr "Print Recept CSS"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2140
+msgid "Print Shopping List CSS"
+msgstr "Print Winkellijst CSS"
+
+#: wp-ultimate-exercise-premium/premium/vendor/EDD/EDD_SL_Plugin_Updater.php:323
+msgid "Error"
+msgstr "Fout"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:405
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:442
+msgid "Output Inline CSS"
+msgstr "Inline CSS gebruiken"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:443
+msgid "When disabled the Template Editor will not output any inline CSS."
+msgstr "Indien gedeactiveerd zal de Template Editor geen inline CSS gebruiken."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:449
+msgid "Use base CSS"
+msgstr "Gebruik basis CSS"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:450
+msgid "When disabled the base CSS file will not be included."
+msgstr "Indien gedeactiveerd zal het basis CSS bestand niet worden gebruikt."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:549
+msgid "Disable Exercise Archive"
+msgstr "Recepten Archief deactiveren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:550
+msgid "Make sure to flush your permalinks after changing this setting."
+msgstr "Flush zeker je permalinks na het aanpassen van deze instelling."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:651
+msgid "Language"
+msgstr "Taal"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:657
+msgid "Available languages can be found over here:"
+msgstr "Beschikbare talen kunnen hier gevonden worden:"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1510
+msgid "Show Checkboxes"
+msgstr "Toon Checkbox"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1511
+msgid "Show checkboxes in the shopping list to cross items of the list."
+msgstr "Toon checkboxen in de winkellijst om ingrediënten af te strepen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2085
+msgid "Assets"
+msgstr "JS & CSS Bestanden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2091
+msgid "Use minified assets"
+msgstr "Gebruik verkleinde bestanden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2092
+msgid "Use minified assets to improve page load speed."
+msgstr "Gebruik verkleinde bestanden om de laadsnelheid te verbeteren."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2098
+msgid "Generate minified assets"
+msgstr "Verkleinde bestanden genereren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2099
+msgid "Generate minified assets on the fly."
+msgstr "Genereer de verkleinde bestanden automatisch."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2105
+msgid "Minified assets directory"
+msgstr "Map voor de verkleinde bestanden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2106
+msgid "Directory to generate the minified assets to. Should be writable."
+msgstr "Map waar de verkleinde bestanden geplaatst worden. Moet schrijfbaar zijn."
+
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:19
+msgid "Hide link"
+msgstr "Link verbergen"
+
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:20
+msgid "Don't use a link in the ingredients list for this ingredient."
+msgstr "Geen link gebruiken voor dit ingrediënt in de ingrediënten lijst."
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/import-easyexercise.php:46
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/import-easyexercise.php:58
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/before_importing.php:4
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/before_importing.php:84
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:6
+msgid "Import EasyExercise"
+msgstr "Importeer EasyExercise"
+
+#: wp-ultimate-exercise-premium/core/helpers/cache.php:82
+msgid "Private"
+msgstr "Privé"
+
+#: wp-ultimate-exercise-premium/core/helpers/cache.php:96
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_whitelist.php:129
+msgid "n/a"
+msgstr "n/a"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:122
+msgid "Import EasyExercise exercises"
+msgstr "Importeer EasyExercise recepten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:257
+msgid "Reset Cache"
+msgstr "Cache Resetten"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/import-easyexercise.php:458
+msgid "Nutritional Serving Size"
+msgstr "Voedingswaarden Portie"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/before_importing.php:92
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/before_importing.php:52
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/before_importing.php:52
+msgid "Unable to import"
+msgstr "Niet mogelijk te importeren"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/before_importing.php:93
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/before_importing.php:53
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/before_importing.php:53
+msgid "We are unable to import these posts or pages automatically:"
+msgstr "Het is niet mogelijk om deze berichten of pagina's automatisch te importeren:"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:23
+msgid "You should select two distinct tags"
+msgstr "Je moet 2 verschillende tags kiezen"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:46
+msgid "Featured Image"
+msgstr "Uitgelichte Afbeelding"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:79
+msgid "No featured image"
+msgstr "Geen uitgelichte afbeelding"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1882
+msgid "Generic ingredient units"
+msgstr "Algemene eenheden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1883
+msgid "Generic ingredient units to recognize while importing. Separate with a ;"
+msgstr "Algemene eenheden om te herkennen tijdens het importeren. Scheiden met een ;"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1909
+msgid "Import From"
+msgstr "Importeer Van"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:137
+msgid "Import Ziplist exercises"
+msgstr "Importeer Ziplist recepten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:14
+msgid "clove"
+msgstr "teentje"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:15
+msgid "cloves"
+msgstr "teentjes"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:16
+msgid "leave"
+msgstr "blad"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:17
+msgid "leaves"
+msgstr "blaadjes"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:18
+msgid "slice"
+msgstr "snee"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:19
+msgid "slices"
+msgstr "sneetjes"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:20
+msgid "piece"
+msgstr "stuk"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:21
+msgid "pieces"
+msgstr "stukken"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:22
+msgid "pinch"
+msgstr "snuif"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:23
+msgid "pinches"
+msgstr "snuifjes"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/import-ziplist.php:26
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/import-ziplist.php:38
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/before_importing.php:4
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/before_importing.php:44
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:6
+msgid "Import Ziplist"
+msgstr "Importeer Ziplist"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/import-exercisecard.php:291
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/import-ziplist.php:320
+msgid "Yield"
+msgstr "Opbrengst"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/before_importing.php:5
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/templates/before_importing.php:5
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/before_importing.php:5
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/templates/import_recipress.php:5
+#: wp-ultimate-exercise-premium/premium/addons/import-xml/templates/before_importing.php:5
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/before_importing.php:5
+msgid "Before importing"
+msgstr "Alvorens te importeren"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:31
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:12
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:12
+msgid "There are no exercises left to import"
+msgstr "Alle recepten zijn geïmporteerd"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:33
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:14
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:14
+msgid "Number of exercises left to import:"
+msgstr "Aantal recepten om te importeren:"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:134
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:54
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:58
+msgid "Import this Exercise"
+msgstr "Importeer dit Recept"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:135
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:55
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:59
+msgid "Feel free to stop at anytime and come back later for the rest of the exercises."
+msgstr "Veel je vrij om op elk moment te stoppen en later terug te komen voor de rest van de recepten."
+
+#: wp-ultimate-exercise-premium/core/helpers/faq.php:24
+msgid "FAQ"
+msgstr "FAQ"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:126
+msgid "Followed by the nutrition label:"
+msgstr "Gevolgd door de voedingswaarden:"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_meta_box.php:46
+msgid "Add Exercise Box"
+msgstr "Voeg Recepten Box toe"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_save.php:105
+msgid "Update the Nutritional Information"
+msgstr "Update de voedingswaarden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:354
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:359
+msgid "Exercise Posts"
+msgstr "Recept Berichten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:385
+msgid "Exercise Shortcode"
+msgstr "Recept Shortcode"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:392
+msgid "Output the exercise shortcode in RSS feeds?"
+msgstr "Toon de recept shortcode in RSS feeds?"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:818
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1270
+msgid "Hide Custom Tags"
+msgstr "Verberg Eigen Tags"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:819
+msgid "Do not show these tags in the Exercise Box."
+msgstr "Toon deze tags in de Recept Box"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1271
+msgid "Hide these tags on the user submission page."
+msgstr "Verberg deze tags op de gebruikersinzending pagina."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1690
+msgid "Print Options"
+msgstr "Afdruk Opties"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1696
+msgid "Print Shopping List Button"
+msgstr "Winkellijst Afdrukken knop"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1697
+msgid "Show a button to print the shopping list."
+msgstr "Toon een knop om de winkellijst af te drukken."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1710
+msgid "Print Menu Button"
+msgstr "Menu Afdrukken knop"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1711
+msgid "Show a button to print the entire menu (Shopping list and exercises)."
+msgstr "Toon een knop om het volledige menu af te drukken (Winkellijst en recepten)."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:247
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/widgets/nutrition_label_widget.php:42
+msgid "Nutrition Label"
+msgstr "Voedingswaarden Label"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:269
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:314
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:273
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:318
+msgid "Left"
+msgstr "Links"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:277
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:322
+msgid "Center"
+msgstr "Midden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:281
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:326
+msgid "Right"
+msgstr "Rechts"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:285
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:330
+msgid "Inline"
+msgstr "Inline"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1830
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/nutritional-information.php:121
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:2
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:82
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:202
+msgid "Nutritional Information"
+msgstr "Voedingswaarde"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/nutritional-information.php:142
+msgid "Add Nutrition Label"
+msgstr "Voeg Voedingswaarden toe"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:39
+msgid "Nutrition Facts"
+msgstr "Voedingswaarde"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:42
+msgid "Amount Per Serving"
+msgstr "Hoeveelheid Per Portie"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:44
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:144
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:260
+msgid "Calories"
+msgstr "Calorieën"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:46
+msgid "Calories from Fat"
+msgstr "Calorieën uit Vetten"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:52
+msgid "% Daily Value"
+msgstr "% Dagelijkse Hoeveelheid"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:56
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:156
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:272
+msgid "Total Fat"
+msgstr "Totaal Vet"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:61
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:160
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:276
+msgid "Saturated Fat"
+msgstr "Verzadigd Vet"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:67
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:172
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:288
+msgid "Trans Fat"
+msgstr "Transvet"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:72
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:164
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:280
+msgid "Polyunsaturated Fat"
+msgstr "Meerv. Onverzadigd Vet"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:77
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:168
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:284
+msgid "Monounsaturated Fat"
+msgstr "Enkelv. Onverzadigd Vet"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:83
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:145
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:261
+msgid "Cholesterol"
+msgstr "Cholesterol"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:89
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:149
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:265
+msgid "Sodium"
+msgstr "Natrium"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:95
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:153
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:269
+msgid "Potassium"
+msgstr "Kalium"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:101
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:148
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:264
+msgid "Total Carbohydrates"
+msgstr "Totaal Koolhydraten"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:106
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:157
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:273
+msgid "Dietary Fiber"
+msgstr "Voedingsvezels"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:112
+msgid "Sugars"
+msgstr "Suikers"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:118
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:152
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:268
+msgid "Protein"
+msgstr "Eiwitten"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:127
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:165
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:281
+msgid "Vitamin A"
+msgstr "Vitamine A"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:133
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:169
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:285
+msgid "Vitamin C"
+msgstr "Vitamine C"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:139
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:173
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:289
+msgid "Calcium"
+msgstr "Calcium"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:145
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:181
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:297
+msgid "Iron"
+msgstr "Ijzer"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:151
+msgid "Percent Daily Values are based on a 2000 calorie diet. "
+msgstr "Percentage Dagelijkse Hoeveelheid is gebaseerd op een dieet van 2000 calorieën."
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/label.php:156
+msgid "There is no Nutrition Label for this exercise yet."
+msgstr "Er zijn nog geen voedingswaarden voor dit recept."
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:100
+msgid "Get Nutritional Data"
+msgstr "Haal voedingswaarden op"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:111
+msgid "Find"
+msgstr "Zoek"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:112
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:178
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:237
+msgid "Close"
+msgstr "Sluiten"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:123
+msgid "Reference serving"
+msgstr "Referentie portie"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:129
+msgid "Metric quantity"
+msgstr "Metrische hoeveelheid"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:161
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:277
+msgid "Sugar"
+msgstr "Suiker"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:165
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:169
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:173
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:181
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:281
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:285
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:289
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:297
+msgid "Daily Value"
+msgstr "Dagelijkse Hoeveelheid"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:177
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:293
+msgid "Save"
+msgstr "Opslaan"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:209
+msgid "Calculate Exercise Nutritonal Information"
+msgstr "Bereken voedingswaarde recept"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:218
+msgid "Ingredient servings:"
+msgstr "Ingrediënt porties:"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:236
+msgid "Calculate"
+msgstr "Bereken"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:256
+msgid "Data for 1 serving:"
+msgstr "Gegevens voor 1 portie:"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:294
+msgid "Clear"
+msgstr "Wissen"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/widgets/nutrition_label_widget.php:9
+msgid "WPUEP Nutrition Label"
+msgstr "WPUEP Voedingswaarden"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/widgets/nutrition_label_widget.php:11
+msgid "Display the Nutrition Label of a exercise."
+msgstr "Toon de voedingswaarden van een recept."
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/widgets/nutrition_label_widget.php:56
+msgid "Exercise shown on exercise page"
+msgstr "Recept getoond op de pagina"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:149
+msgid "Print Menu"
+msgstr "Menu Afdrukken"
+
+#: wp-ultimate-exercise-premium/premium/vendor/EDD/EDD_SL_Plugin_Updater.php:176
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Toon details van versie %3$s</a>."
+
+#: wp-ultimate-exercise-premium/premium/vendor/EDD/EDD_SL_Plugin_Updater.php:183
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr "Er is een nieuwe versie van %1$s beschikbaar. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Toon details van versie %3$s</a> of <a href=\"%4$s\">update nu</a>."
+
+#: wp-ultimate-exercise-premium/premium/vendor/EDD/EDD_SL_Plugin_Updater.php:323
+msgid "You do not have permission to install plugin updates"
+msgstr "Je hebt niet de toegang om plugin updates te installeren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:177
+msgid "Use Fractions"
+msgstr "Gebruik Breuken"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:178
+msgid "Use fractions after adjusting, even if the original quantity wasn't one."
+msgstr "Gebruik breuken bij het aanpassen van hoeveelheden, ook al was het oorspronkelijk geen breuk."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:969
+msgid "Rounding Ratings"
+msgstr "Afronden Score"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:970
+msgid "Round the ratings presented in the metadata."
+msgstr "Afronden van de score die getoond wordt in de metadata."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:978
+msgid "Round up to nearest half"
+msgstr "Naar boven afronden tot het eerste halve getal"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:982
+msgid "Round up to nearest integer"
+msgstr "Naar boven afronden tot het eerste ronde getal"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1390
+msgid "Restrict Media Library Access"
+msgstr "Beperk Media Bibliotheek Toegang"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1391
+msgid "Only show media library for editors and up"
+msgstr "Toon de bibliotheek enkel voor redacteurs en hoger"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:438
+msgid "Display a random menu"
+msgstr "Toon een willekeurig menu"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:442
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:461
+msgid "Select a menu to display"
+msgstr "Selecteer een menu om te tonen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1383
+msgid "Email administrator"
+msgstr "Email beheerder"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1384
+msgid "Send an email notification when a new exercise is submitted."
+msgstr "Stuur een email notificatie wanneer er een nieuw recept wordt ingestuurd."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:186
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:635
+msgid "(separate slugs with ;)"
+msgstr "(onderscheid slugs met ;)"
+
+#: wp-ultimate-exercise-premium/premium/addons/exercise-search/widgets/exercise_search_widget.php:9
+msgid "WPUEP Exercise Search"
+msgstr "WPUEP Recepten Zoeken"
+
+#: wp-ultimate-exercise-premium/premium/addons/exercise-search/widgets/exercise_search_widget.php:11
+msgid "A customizable Exercise Search widget."
+msgstr "Een aanpasbare widget om recepten te zoeken."
+
+#: wp-ultimate-exercise-premium/premium/addons/exercise-search/widgets/exercise_search_widget.php:62
+msgid "Exercise Search"
+msgstr "Zoek een Recept"
+
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/widgets/nutrition_label_widget.php:50
+#: wp-ultimate-exercise-premium/premium/addons/exercise-search/widgets/exercise_search_widget.php:79
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:75
+msgid "Title:"
+msgstr "Titel:"
+
+#: wp-ultimate-exercise-premium/premium/addons/exercise-search/widgets/exercise_search_widget.php:87
+msgid "filter"
+msgstr "filter"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:9
+msgid "WPUEP Exercise List"
+msgstr "WPUEP Recepten Lijst"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:11
+msgid "Make a list of your latest, highest rated, ... exercises."
+msgstr "Maak een lijst van je recentste, populairste, ... recepten."
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:57
+msgid "Our Exercies"
+msgstr "Onze Recepten"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:66
+msgid "Exercise Title"
+msgstr "Recept Naam"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:67
+msgid "Exercise Rating"
+msgstr "Recept Score"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:70
+msgid "ascending"
+msgstr "oplopend"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:71
+msgid "descending"
+msgstr "aflopend"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:79
+msgid "Order By"
+msgstr "Sorteer Volgens"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:90
+msgid "Order"
+msgstr "Volgorde"
+
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:101
+msgid "Number of exercises to show"
+msgstr "Aantal recepten om te tonen"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:375
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:283
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/custom-fields.php:18
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page.php:4
+msgid "Custom Fields"
+msgstr "Eigen Velden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:132
+msgid "RSS Feed Template"
+msgstr "RSS Feed Template"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:133
+msgid "The default template to use for RSS feeds."
+msgstr "De standaard template om te gebruiken voor RSS feeds."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:730
+msgid "Exercise Fields"
+msgstr "Recept Velden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:747
+msgid "Custom Exercise Fields"
+msgstr "Eigen Recept Velden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:768
+msgid "Show Custom Fields in User Submission form"
+msgstr "Toon Eigen Velden in het Gebruikersinzending formulier"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:53
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:55
+msgid "Manage custom exercise fields"
+msgstr "Beheer eigen recept velden"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/custom-fields.php:30
+msgid "Current Custom Fields"
+msgstr "Huidige Eigen Velden"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/custom-fields.php:31
+msgid "Add new Custom Field"
+msgstr "Voeg nieuw Eigen Veld toe"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_form.php:1
+msgid "Create custom fields for your exercises."
+msgstr "Maak eigen velden voor je recepten."
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_form.php:9
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_list.php:9
+msgid "Key"
+msgstr "Sleutel"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_form.php:12
+msgid "(e.g. exercise_chef)"
+msgstr "(bv. recept_chef)"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_form.php:12
+msgid "Make sure this is unique!"
+msgstr "Deze sleutel moet uniek zijn!"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_form.php:19
+msgid "(e.g. Exercise Chef)"
+msgstr "(bv. Recept Chef)"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_form.php:25
+msgid "Add new field"
+msgstr "Voeg nieuw veld toe"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_list.php:1
+msgid "Do you really want to delete this custom field?"
+msgstr "Ben je zeker dat je dit eigen veld wil verwijderen?"
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:115
+msgid "Easily add shortcodes"
+msgstr "Eenvoudig shortcodes toevoegen"
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:116
+msgid "Click on the <strong>chef's hat</strong> in the visual editor toolbar to easily <strong>add exercises and functionality</strong> to any post or page."
+msgstr "Klik op de <strong>koksmuts</strong> in de toolbar om eenvoudig <strong>recepten en functionaliteit toe te voegen</strong> aan een bericht of pagina."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1103
+msgid "The Multi-Select, Match All and Parents match Children setting has been moved to the shortcode and can now be changed per Exercise Egrid."
+msgstr "De instellingen zijn verplaatst naar de shortcode zodat deze per Recepten Egrid kunnen aangepast worden."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:688
+msgid "Limit exercises at start"
+msgstr "Beperk aantal recepten bij eerste laad"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:252
+msgid "Recalculate Exercise Egrid Terms"
+msgstr "Herbereken Recepten Egrid Tags"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:51
+msgid "Exercise Notes"
+msgstr "Notities"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:111
+msgid "required"
+msgstr "verplicht"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:176
+msgid "Select an ingredient"
+msgstr "Selecteer een ingrediënt"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:109
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:26
+msgid "Your exercises"
+msgstr "Jouw recepten"
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:27
+msgid "Everything regarding your exercises can be handled over here. Just click on 'Exercies' to create one, edit one or change your settings."
+msgstr "Alles in verband met je recepten kan je hier terugvinden. Klik op 'Recepten' om een recept aan te maken, aan te passen of je instellingen te wijzigen."
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:49
+msgid "If it's your first time here, it's a good idea to check out the <strong>Demo Exercise</strong>. But make sure to take a look at the <strong>settings page</strong> later. Plenty of things can be customized to your liking."
+msgstr "Indien het je eerste keer hier is, is het een goed idee om het <strong>Demo Recept</strong> te bekijken. Maar neem zeker ook eens een kijkje naar de <strong>instellingen</strong> achteraf. Heel wat dingen kan je daar naar wens aanpassen."
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:70
+msgid "Important!"
+msgstr "Belangrijk!"
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:71
+msgid "Make sure to enter your ingredients as indicated: the quantity in the first field, unit in the second, the actual ingredient in the third and notes in the last."
+msgstr "Zorg ervoor dat je je ingrediënten invult zoals aangegeven: de hoeveelheid in het eerste veld, de eenheid in het tweede, het eigenlijke ingrediënt in het derde en eventuele notities in het laatste."
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:72
+msgid "You want to name your ingredients consistently as this name will be used to link exercises, use the notes field to specify things about an ingredient."
+msgstr "Je zorgt er best voor dat je je ingrediënt consistent benoemt. Deze naam wordt immers gebruikt om recepten met elkaar te linken. Gebruik het notities veld om eventueel extra informatie over een ingrediënt te geven."
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:93
+msgid "Need help?"
+msgstr "Hulp nodig?"
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:94
+msgid "You can contact us directly from this settings page <strong>if you have any questions or suggestions</strong>. Just click on the green 'Support' tab on the right side of the screen."
+msgstr "Je kan ons rechtstreeks contacteren van op deze instellingen pagina <strong>indien je vragen of suggesties hebt</strong>. Klik op het groene 'Support' tabje aan de rechterkant van dit scherm."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:21
+msgid "This must be the best demo exercise I have ever seen. I could eat this every single day."
+msgstr "Dit moet zowat het beste demo recept zijn dat ik ooit heb gezien. Ik zou dit wil elke dag kunnen eten."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:24
+msgid "people"
+msgstr "personen"
+
+#: wp-ultimate-exercise-premium/core/helpers/models/exercise.php:169
+#: wp-ultimate-exercise-premium/core/helpers/models/exercise.php:274
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:30
+msgid "hour"
+msgstr "uur"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:120
+msgid "Use this section for whatever you like."
+msgstr "Gebruik dit veld voor wat je maar wil."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:133
+msgid "Demo Exercise"
+msgstr "Demo Recept"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:123
+msgid "Use this like normal post content. The exercise will automatically be included at the end of the post, or wherever you place the shortcode:"
+msgstr "Gebruik dat zoals bij gewone berichten. Je recept zal automatisch ingevoegd worden aan het einde van dit bericht, of waar je de shortcode plaatst:"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:123
+msgid "This text will appear below your exercise."
+msgstr "Deze tekst verschijnt onder je recept."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:24
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:40
+msgid "Template Editor"
+msgstr "Template Editor"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:54
+msgid "Preview Exercise"
+msgstr "Voorbeeld Recept"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:55
+msgid "This exercise will be used for the preview in the editor."
+msgstr "Dit recept zal gebruikt worden voor het voorbeeld in de editor."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:72
+msgid "Default Templates"
+msgstr "Standaard Templates"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:79
+msgid "The default template to use for exercises."
+msgstr "Het standaard template voor recepten."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:97
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1718
+msgid "The default template to use for printed exercises."
+msgstr "Het standaard template voor de print versie van recepten."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:114
+msgid "Exercise Egrid Template"
+msgstr "Recepten Egrid Template"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:115
+msgid "The default template to use for exercises in the Exercise Egrid."
+msgstr "Het standaard template voor recepten in het Recepten Egrid."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:157
+msgid "Functionality"
+msgstr "Functionaliteit"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:334
+msgid "Print Version"
+msgstr "Print Versie"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:428
+msgid "Force CSS style"
+msgstr "Forceer CSS stijl"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:429
+msgid "This ensures maximum compatibility with most themes. Can be disabled for advanced usage."
+msgstr "Dit verzekerd maximale compatibiliteit met de meeste WP themes."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:411
+msgid "Responsive Breakpoint"
+msgstr "Mobiel Breekpunt"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:412
+msgid "The width of the exercise box at which will be switched to the mobile version."
+msgstr "De breedte van de recepten box vanaf wanneer er wordt overgeschakeld naar de mobiele versie."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:461
+msgid "Exercise Archive"
+msgstr "Recepten Archief"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1140
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1431
+msgid "Use the following shortcode to display the front-end form:"
+msgstr "Gebruik de volgende shortcode om het front-end formulier te tonen:"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1376
+msgid "Can only select existing ingredients"
+msgstr "Kan enkel bestaande ingrediënten selecteren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1377
+msgid "When enabled visitors will only be able to select from a list of existing ingredients."
+msgstr "Indien actief kunnen bezoekers enkel kiezen uit een lijst van bestaande ingrediënten."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2038
+msgid "Remove exercise slug"
+msgstr "Verwijder recepten slug"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2039
+msgid "Make sure your slugs are unique across posts, pages and exercises! Your archive page will still be available."
+msgstr "Let op dat je slugs uniek zijn overheen berichten, pagina's en recepten! Je archief pagina is nog steeds beschikbaar."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2053
+msgid "Shortcode Editor"
+msgstr "Shortcode Editor"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2067
+msgid "Show shortcode editor for"
+msgstr "Toon shortcode editor voor"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2068
+msgid "Where do you want to be able to insert exercises with the shortcode editor?"
+msgstr "Waar wil je gebruik kunnen maken van de shortcode editor om recepten in te voegen?"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:95
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:97
+msgid "Open the Template Editor"
+msgstr "Open de Template Editor"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:242
+msgid "Reset Demo Exercise"
+msgstr "Reset het Demo Recept"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:13
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:48
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:83
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:496
+msgid "Template"
+msgstr "Template"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_list.php:1
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:1
+msgid "Do you really want to delete this taxonomy?"
+msgstr "Ben je zeker dat je deze tag wil verwijderen?"
+
+#: wp-ultimate-exercise-premium/premium/addons/template-editor/template-editor.php:87
+msgid "Image Manager"
+msgstr "Afbeelding Manager"
+
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:60
+msgid "Clone Exercise"
+msgstr "Recept Clonen"
+
+#: wp-ultimate-exercise-premium/wp-ultimate-exercise-premium.php:106
+msgid "You need to deactivate the free WP Ultimate Exercise plugin before activating the Premium version. WP Ultimate Exercise Premium is a stand-alone plugin since version 2. You won't lose any settings or exercises when deactivating."
+msgstr "Je moet de gratis WP Ultimate Exercise plugin eerst deactiveren alvorens de Premium versie te activeren. WP Ultimate Exercise Premium is een stand-alone plugin sinds versie 2. Je zal geen instellingen of recepten verliezen bij het deactiveren."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:96
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1717
+msgid "Print Template"
+msgstr "Print Template"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:345
+msgid "Title Text"
+msgstr "Titel Tekst"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:346
+msgid "Title of the new webpage that opens."
+msgstr "Titel van de nieuwe webpagina die opent."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:959
+msgid "Minimum # Votes"
+msgstr "Minimum # Stemmen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:960
+msgid "Minimum number of votes needed before sharing the rating as metadata used by Google and other search engines."
+msgstr "Het minimum aantal stemmen nodig voor de score als metadata getoond wordt aan Google en andere zoekmachines."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2119
+msgid "Custom Code"
+msgstr "Eigen Code"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2126
+msgid "Public CSS"
+msgstr "Publieke CSS"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/import-recipress.php:26
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/templates/import_recipress.php:4
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/templates/import_recipress.php:73
+msgid "Import ReciPress"
+msgstr "Importeer ReciPress"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/import-text.php:109
+msgid "Add New from Text"
+msgstr "Toevoegen van Tekst"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/import-fdx.php:65
+#: wp-ultimate-exercise-premium/premium/addons/import-text/import-text.php:134
+#: wp-ultimate-exercise-premium/premium/addons/import-xml/import-xml.php:64
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/user-submissions.php:204
+msgid "Untitled"
+msgstr "Zonder Titel"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:3
+msgid "Add New Exercise from text"
+msgstr "Recept Toevoegen van Tekst"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:4
+msgid "This is function is still in beta version. Any feedback is welcome!"
+msgstr "Deze functie is nog in beta versie. Elke feedback is welkom!"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:5
+msgid "Plain Text Exercise Input"
+msgstr "Recept tekst input"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:6
+msgid "Paste your exercise in this input field."
+msgstr "Plak je recept in dit invoer veld."
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:8
+msgid "Define Exercise Regions"
+msgstr "Definieer Recept Regios"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:9
+msgid "Highlight a section in your exercise and click the corresponding button to define it."
+msgstr "Selecteer een sectie in het recept en klik op de overeenkomstige knop om dit te definiëren."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:112
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:127
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:47
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:19
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:49
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:81
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:51
+msgid "Notes"
+msgstr "Notities"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:73
+msgid "Ingredient Details"
+msgstr "Ingredient Details"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:57
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:74
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:89
+msgid "Tip"
+msgstr "Tip"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:74
+msgid "Only unit aliases defined in the settings will be recognized."
+msgstr "Enkel eenheid aliasen die in de instellingen werden gedefinieerd worden herkent."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:110
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:125
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:45
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:79
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:49
+msgid "Unit"
+msgstr "Eenheid"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:91
+msgid "Separate instructions with an empty line"
+msgstr "Instructies afzonderen met een lege lijn"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:92
+msgid "Every line is a separate instruction"
+msgstr "Elke lijn is een nieuwe instructie"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:108
+msgid "Add Exercise"
+msgstr "Recept Toevoegen"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-ratings/templates/user_rating.php:35
+msgid "You"
+msgstr "Jij"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-ratings/user-ratings.php:50
+msgid "Are you sure you want to reset the rating for this exercise? This will set the votes and rating to 0."
+msgstr "Ben je zeker dat je de score voor dit recept wil resetten? Dit zit het aantal stemmen en de score op 0."
+
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:53
+msgid "reset"
+msgstr "reset"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:180
+msgid "When converting to a unit the alias defined below will be shown. The singular form will be shown when the amount is 1, the plural otherwise."
+msgstr "De alias hieronder zal getoond worden indien er naar deze eenheid geconverteerd wordt. Het enkelvoud wordt getoond indien de hoeveelheid 1 is, anders het meervoud."
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:193
+msgid "Singular"
+msgstr "Enkelvoud"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:214
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:9
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:36
+msgid "Plural"
+msgstr "Meervoud"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:234
+msgid "Alias to convert to"
+msgstr "Alias om naar te converteren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1464
+msgid "Enable user menus save function for"
+msgstr "Gebruikers menus opslaan functie activeren voor"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1590
+msgid "Unit system to use for the shopping list feature."
+msgstr "Eenheid systeem om te gebruiken voor de winkellijst."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:58
+msgid "(e.g. 20 minutes, 1-2 hours, ...)"
+msgstr "(bv: 20 minuten, 1-2 uur, ...)"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:523
+msgid "Allow filtering by"
+msgstr "Sta filteren toe van"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:263
+msgid "The menu can be edited from the front end:"
+msgstr "Dit menu kan in de front end worden aangepast:"
+
+#: wp-ultimate-exercise-premium/core/helpers/plugin_action_link.php:13
+msgid "More information"
+msgstr "Meer Informatie"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:386
+msgid "US Customary"
+msgstr "US Customary"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:390
+msgid "US Legal"
+msgstr "US Legal"
+
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:25
+msgid "Use this to group ingredients in the shopping list."
+msgstr "Gebruik dit om ingrediënten in de winkellijst te groeperen."
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/ingredient-groups.php:42
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:26
+msgid "Vegetables"
+msgstr "Groenten"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:147
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:179
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1037
+msgid "Unit Aliases"
+msgstr "Eenheid Aliassen"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:148
+msgid "Use a semicolon to separate unit aliases. For example: "
+msgstr "Gebruik een puntkomma om de verschillende eenheid aliassen te onderscheiden. Bijvoorbeeld:"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:169
+msgid " Units"
+msgstr "Eenheden"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:250
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1032
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1568
+msgid "Unit Systems"
+msgstr "Eenheid Systemen"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:256
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1612
+msgid "Number of Systems"
+msgstr "Aantal Systemen"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:257
+msgid "Number of unit systems for your visitors to choose from."
+msgstr "Aantal eenheid systeem waartussen je bezoekers kunnen kiezen."
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:266
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:272
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:278
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:288
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:298
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:410
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1626
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1647
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1668
+msgid "Unit System"
+msgstr "Eenheid Systeem"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:321
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:327
+msgid "Universal Units"
+msgstr "Universele Eenheden"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:328
+msgid "These units are considered universal to all systems and will not be converted."
+msgstr "Deze eenheden worden verondersteld universeel te zijn voor alle systemen en zullen dan ook niet geconverteerd worden."
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:367
+msgid " units"
+msgstr "eenheden"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:378
+msgid "Cup Type"
+msgstr "Cup Type"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:431
+msgid "US Imperial"
+msgstr "US Imperial"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:184
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1494
+msgid "Default Servings"
+msgstr "Standaard Porties"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:185
+msgid "Default number of servings to use when none specified."
+msgstr "Standaard aantal porties om te gebruiken indien geen aantal werd ingevuld."
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:67
+msgid "Add Exercies"
+msgstr "Recepten Toevoegen"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:89
+msgid "alphabet"
+msgstr "alfabet"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:100
+msgid "No exercises in your menu yet"
+msgstr "Er zijn nog geen recepten in je menu"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:141
+msgid "Save Menu"
+msgstr "Menu Opslaan"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:145
+msgid "Print Shopping List"
+msgstr "Winkellijst Afdrukken"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/ingredient-groups.php:2
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:137
+msgid "Ingredient Groups"
+msgstr "Ingrediënt Groepen"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/ingredient-groups.php:58
+msgid "Ungrouped"
+msgstr "Zonder Groep"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:398
+msgid "Other"
+msgstr "Overige"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1084
+msgid "Use the [ultimate-exercise-grid] shortcode to display the Exercise Egrid."
+msgstr "Gebruik de [ultimate-exercise-grid] shortcode om het Recepten Egrid te tonen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:547
+msgid "Multi-Select"
+msgstr "Multi-Select"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:551
+msgid "Allow visitors to select multiple values for a tag or category."
+msgstr "Sta bezoekers toe om meerdere waarden voor een tag of categorie te selecteren."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:565
+msgid "Match All"
+msgstr "Alles moet overeenkomen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:569
+msgid "Exercies will only match if they match all selections."
+msgstr "Recepten worden enkel getoond indien alle selecties overeenkomen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:583
+msgid "Parents match Children"
+msgstr "Hoofdtags tellen ook"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:587
+msgid "Selecting a parent will also match exercises with a child category or tag of that parent."
+msgstr "Een hoofdtag selecteren zal ook recepten tonen die een tag onder deze hoofdtag hebben."
+
+#: wp-ultimate-exercise-premium/premium/helpers/license_form.php:8
+msgid "License Key"
+msgstr "Licentie sleutel"
+
+#: wp-ultimate-exercise-premium/premium/helpers/license_form.php:11
+msgid "Enter your license key"
+msgstr "Vul je licentie sleutel in"
+
+#: wp-ultimate-exercise-premium/premium/helpers/license_form.php:13
+msgid "active"
+msgstr "actief"
+
+#: wp-ultimate-exercise-premium/premium/helpers/license_form.php:15
+msgid "invalid"
+msgstr "ongeldig"
+
+#: wp-ultimate-exercise-premium/premium/helpers/license_form.php:19
+msgid "Change License"
+msgstr "Licentie Veranderen"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:382
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:429
+msgid "Metric"
+msgstr "Metrisch"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2031
+msgid "Exercies in admin posts"
+msgstr "Recepten in admin berichten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2032
+msgid "Show exercises in admin posts overview when acting as posts."
+msgstr "Toon recepten in admin berichten overzicht bij recepten zoals berichten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:996
+msgid "Unit Conversion"
+msgstr "Eenheid Conversie"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1023
+msgid "Allow Conversion"
+msgstr "Conversie Toestaan"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1024
+msgid "Allow your visitors to switch between Imperial and Metric units."
+msgstr "Je bezoekers toestaan om te wisselen tussen Imperiale en Metrische eenheden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:156
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:601
+msgid "Limit Author"
+msgstr "Auteur Beperken"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:39
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:28
+msgid "Units"
+msgstr "Eenheden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2024
+msgid "Exercies act as posts"
+msgstr "Recepten zoals berichten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2025
+msgid "Exercies act like normal posts. For example: they show up on your front page."
+msgstr "Recepten gedragen zich als gewone berichten. Bijvoorbeeld: ze worden getoond op de voorpagina."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:952
+msgid "Show indicator"
+msgstr "Toon indicator"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:953
+msgid "Attract attention to the possibility to vote."
+msgstr "Trek de aandacht op de mogelijkheid om te stemmen."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:21
+msgid "(leave blank to use post title)"
+msgstr "(laat leeg om de berichttitel te gebruiken)"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1045
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:482
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:485
+msgid "Exercise Egrid"
+msgstr "Recepten Egrid"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:512
+msgid "Exclude exercises without a photo"
+msgstr "Recepten zonder foto uitsluiten"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-ratings/templates/user_rating.php:38
+msgid "Rate this exercise!"
+msgstr "Stem op dit recept!"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:933
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:974
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:555
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:573
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:591
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:937
+msgid "Only logged in users can rate exercises"
+msgstr "Enkel ingelogde gebruikers kunnen recepten een score geven"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:941
+msgid "Everyone can rate exercises"
+msgstr "Iedereen kan recepten een score geven"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_save.php:125
+#: wp-ultimate-exercise-premium/premium/addons/exercise-grid/exercise-grid.php:276
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:81
+msgid "Categories"
+msgstr "Categoriën"
+
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:14
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:37
+msgid "Link"
+msgstr "Link"
+
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:15
+msgid "Send your visitors to a specific link when clicking on an ingredient."
+msgstr "Stuur je bezoekers naar een specifieke link wanneer ze op een ingrediënt klikken."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:82
+msgid "Manage custom exercise tags"
+msgstr "Beheer eigen recept tags"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:208
+msgid "Clickable Images"
+msgstr "Klikbare Afbeeldingen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:209
+msgid "Best used in combination with a lightbox plugin."
+msgstr "Best gebruikt in combinatie met een lightbox plugin."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:263
+msgid "Custom links are only available in "
+msgstr "Eigen links zijn enkel beschikbaar in"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:273
+msgid "Ingredient Links"
+msgstr "Ingredient Links"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:274
+msgid "Links to be used in the ingredient list."
+msgstr "Links om te gebruiken in the ingredient lijst."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:278
+msgid "No ingredient links"
+msgstr "Geen ingredient links"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:282
+msgid "Only link to ingredient archive page"
+msgstr "Link enkel naar de ingredient archief pagina"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:286
+msgid "Custom link if provided, otherwise archive page"
+msgstr "Eigen link indien deze bestaat, anders de archief pagina"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:290
+msgid "Custom links if provided, otherwise no link"
+msgstr "Eigen link indien deze bestaat, anders geen link"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:301
+msgid "Custom Links"
+msgstr "Eigen Links"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:302
+msgid "Custom links can be added on the "
+msgstr "Eigen links kunnen toegevoegd worden op de"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:302
+msgid "ingredients page"
+msgstr "ingrediënten pagina"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:306
+msgid "Open in the current tab/window"
+msgstr "Open in huidige tab/venster"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:310
+msgid "Open in a new tab/window"
+msgstr "Open in nieuwe tab/venster"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:631
+msgid "Exercise Sharing"
+msgstr "Recepten Delen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:643
+msgid "Enable Sharing"
+msgstr "Delen Activeren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:644
+msgid "Show sharing buttons."
+msgstr "Toon de knoppen om recepten te delen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:685
+msgid "Default text to share"
+msgstr "Standaard tekst die gedeeld wordt"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:703
+msgid "Use %title% as a placeholder for the exercise title."
+msgstr "Gebruik %title% als een placeholder voor de titel van het recept."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:804
+msgid "Custom Exercise Tags"
+msgstr "Eigen Recepten Tags"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:833
+msgid "WordPress Categories & Tags"
+msgstr "WordPress Categorieën & tags"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:846
+msgid "Show Exercies in Archives"
+msgstr "Toon Recepten in Archieven"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:847
+msgid "Show exercises in the WP Categories and Tags archives."
+msgstr "Toon recepten in de WP Categorieën en Tags archieven."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:400
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:543
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:762
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:854
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1363
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2004
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:872
+msgid "Categories will only show up as tags in the exercise if they have a parent category. For example: a \"Courses\" parent category with \"Main Dish\" and \"Dessert\" as child categories assigned to your exercises."
+msgstr "Categorieën worden enkel als tags getoond in een recept als ze een andere categorie als ouder hebben. Bijvoorbeeld: een \"Gangen\" categorie met als kinderen \"Hoofdgerecht\" en \"Dessert\" waarbij deze laatste 2 als categorie aan een recept hangen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:882
+msgid "Show Categories in Exercise"
+msgstr "Toon Categorieën in Recept"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:883
+msgid "Use WP categories as if they are tags for their parent category."
+msgstr "Gebruik WP categorieën als tags van hun bovenliggende categorie."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1256
+msgid "User Submitted Categories"
+msgstr "Gebruikersinzending Categorieën"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1257
+msgid "Allow users to assign categories when submitting exercises."
+msgstr "Sta gebruikers toe om categorieën toe te wijzen bij het inzenden van recepten."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1263
+msgid "User Submitted Tags"
+msgstr "Gebruikersinzending Tags"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1264
+msgid "Allow users to assign tags when submitting exercises."
+msgstr "Sta gebruikers toe om tags toe te wijzen bij het inzenden van recepten."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:889
+msgid "Show Categories Filter"
+msgstr "Toon Categorieën Filter"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:890
+msgid "Users can see the categories when filtering."
+msgstr "Gebruikers kunnen categorieën zien tijdens het filteren."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:896
+msgid "Show Tags Filter"
+msgstr "Toon Tags Filter"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:897
+msgid "Users can see the tags when filtering."
+msgstr "Gebruikers kunnen tags zien tijdens het filteren."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:906
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:929
+msgid "User Ratings"
+msgstr "Gebruikers Scores"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:93
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:118
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:143
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:222
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:239
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:259
+#: wp-ultimate-exercise-premium/premium/helpers/ingredient_metadata.php:24
+msgid "Group"
+msgstr "Groep"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:95
+msgid "Main Ingredients"
+msgstr "Recept Ingrediënten"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:95
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:223
+msgid "(this label is not shown)"
+msgstr "(dit label wordt niet getoond)"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:207
+msgid "Add an ingredient group"
+msgstr "Voeg een ingrediënt groep toe"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:223
+msgid "Main Instructions"
+msgstr "Recept Instructies"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:344
+msgid "Add an instruction group"
+msgstr "Voeg een instructie groep toe"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:53
+msgid "Share this Exercise"
+msgstr "Deel dit Recept"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_save.php:126
+#: wp-ultimate-exercise-premium/premium/addons/exercise-grid/exercise-grid.php:284
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:82
+msgid "Tags"
+msgstr "Tags"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:139
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:527
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:618
+#: wp-ultimate-exercise-premium/premium/addons/exercise-search/widgets/exercise_search_widget.php:75
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:8
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:71
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:79
+msgid "Category"
+msgstr "Categorie"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-ratings/templates/user_rating.php:33
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:50
+msgid "Votes"
+msgstr "Stemmen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:132
+msgid "Import ReciPress exercises"
+msgstr "Importeer ReciPress recepten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:839
+msgid "Use Categories and Tags"
+msgstr "Gebruik Categorieën en Tags"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:840
+msgid "Use the default WP Categories and Tags to organize your exercises."
+msgstr "Gebruik de standaard WP Categorieën en Tags om je recepten in te delen."
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:45
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:69
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:271
+msgid "Passive Time"
+msgstr "Passieve Tijd"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/before_importing.php:7
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/templates/before_importing.php:7
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/before_importing.php:7
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/templates/import_recipress.php:7
+#: wp-ultimate-exercise-premium/premium/addons/import-xml/templates/before_importing.php:7
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/before_importing.php:7
+msgid "It's a good idea to backup your WP database before using the import feature."
+msgstr "Het is een goed idee om een backup te nemen van je WP database alvorens de import feature te gebruiken."
+
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/templates/import_recipress.php:19
+msgid "exercises are about to be imported to"
+msgstr "recepten zullen worden geïmporteerd naar"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/templates/import_recipress.php:19
+msgid "Are you sure you want to do this?"
+msgstr "Ben je zeker dat je dit wil doen?"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/before_importing.php:54
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/before_importing.php:69
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/templates/import_recipress.php:28
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/templates/import_recipress.php:43
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/templates/import_recipress.php:58
+msgid "Select a exercise tag"
+msgstr "Kies een recept tag"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/import-recipress.php:45
+msgid "You should activate this plugin:"
+msgstr "Je moet deze plugin activeren:"
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:18
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/import-recipress.php:59
+msgid "You should select a new tag for the imported exercises"
+msgstr "Je moet een nieuwe tag kiezen voor de geïmporteerde recepten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:7
+msgid "Display a random exercise"
+msgstr "Toon een willekeurig recept"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:25
+msgid "The user menus archive can be found at"
+msgstr "Het gebruiker menus archief kan gevonden worden op"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:19
+msgid "The exercise archive can be found at"
+msgstr "Het recept archief kan gevonden worden op"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:702
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:871
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1083
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1102
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1139
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1430
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1790
+msgid "Important"
+msgstr "Belangrijk"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1116
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:342
+msgid "User Submission"
+msgstr "Gebruikersinzending"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:798
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1243
+msgid "Exercise Tags"
+msgstr "Recept Tags"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1441
+msgid "Enable user menus for"
+msgstr "Gebruiker menus activeren voor"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_shortcode.php:18
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:45
+msgid "Manage Tags"
+msgstr "Tags Beheren"
+
+#: wp-ultimate-exercise-premium/core/static/drip_form.php:3
+msgid "Are you sure you want to dismiss this notice? (Make sure you have saved your changes first!)"
+msgstr "Ben je zeker dat je deze melding wil verbergen? (Let er op dat je eerst je aanpassingen opslaat!)"
+
+#: wp-ultimate-exercise-premium/core/static/drip_form.php:3
+#: wp-ultimate-exercise-premium/core/static/getting_started_notice.php:3
+msgid "Hide this message"
+msgstr "Verberg dit bericht"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/bootstrap.php:88
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:364
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:389
+msgid "Successful"
+msgstr "Succesvol"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/bootstrap.php:99
+msgid "Unauthorized function"
+msgstr "Deze functie is niet toegelaten"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/metabox.php:35
+msgid "[Development Mode] "
+msgstr "[Ontwikkelaarsmodus]"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/metabox.php:566
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/metabox/alchemy.php:493
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/metabox.php:588
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/metabox/alchemy.php:515
+msgid "Add More"
+msgstr "Nieuwe"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:47
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:48
+msgid "Vafpress Options"
+msgstr "Vafpress instellingen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:61
+msgid "Option Key is required"
+msgstr "Waarde is verplicht"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:63
+msgid "Template Array/File is required"
+msgstr "Thema bestand is verplicht"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:65
+msgid "Page Slug is required"
+msgstr "Pagina slug is verplicht"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:167
+msgid "Development Mode is Active, options' values won't be saved into database."
+msgstr "Development Mode is Actief, opties worden niet opgeslaan in de database."
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:306
+msgid "Can not be empty"
+msgstr "Mag niet leeg zijn"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:331
+msgid "Invalid data"
+msgstr "Foutieve data"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:394
+msgid "Unverified Access"
+msgstr "Niet-geverifieerde toegang"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:460
+msgid "Invalid template supplied"
+msgstr "Ongeldig thema toegepast"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:473
+msgid "Utility"
+msgstr "Hulpmiddelen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:479
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/restore.php:13
+msgid "Restore Default"
+msgstr "Herstellen naar standaard instellingen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option.php:488
+msgid "Export/Import"
+msgstr "Exporteren/importeren"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/shortcodegenerator.php:263
+msgid "Insert"
+msgstr "Invoegen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/shortcodegenerator.php:264
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option/control/set.php:359
+msgid "Saving successful"
+msgstr "Instellingen opgeslagen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option/control/set.php:370
+msgid "Saving failed"
+msgstr "Opslaan mislukt"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/classes/option/control/set.php:376
+msgid "No changes made"
+msgstr "Geen wijzigingen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:13
+msgid "Value needs to be Alphabet"
+msgstr "Alleen letters zijn toegestaan"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:14
+msgid "Value needs to be Alphanumeric"
+msgstr "Mag alleen cijfers en letters bevatten"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:15
+msgid "Value needs to be Numeric"
+msgstr "Alleen cijfers zijn toegestaan"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:16
+msgid "Value needs to be Valid Email"
+msgstr "Vul een geldig e-mailadres in"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:17
+msgid "Value needs to be Valid URL"
+msgstr "Vul een geldige URL in"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:18
+msgid "Length needs to be less than {0} characters"
+msgstr "De lengte moet minder dan {0} karakters zijn"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:19
+msgid "Length needs to be more than {0} characters"
+msgstr "De lengte moet minimaal {0} karakters zijn"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:20
+msgid "Select no more than {0} items"
+msgstr "Selecteer niet meer dan {0} items"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:21
+msgid "Select at least {0} items"
+msgstr "Selecteer tenminste {0} items"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:22
+msgid "This is required"
+msgstr "Dit is verplicht"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:29
+msgid "Import succeed, option page will be refreshed.."
+msgstr "Importeren geslaagd, de pagina zal worden vernieuwd."
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:30
+msgid "Import failed"
+msgstr "Importeren mislukt"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:31
+msgid "Export succeed, copy the JSON formatted options"
+msgstr "Exporteren geslaagd, kopieer de seri?e code"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:32
+msgid "Export failed"
+msgstr "Exporteren mislukt"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:33
+msgid "Restoration succeed, option page will be refreshed.."
+msgstr "Herstellen geslaagd, de pagina zal worden vernieuwd."
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:34
+msgid "Options identical to default"
+msgstr "Er zijn geen wijzigingen gedaan"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:35
+msgid "Restoration failed"
+msgstr "Herstellen mislukt"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:43
+msgid "Select option(s)"
+msgstr "Selecteer optie(s)"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/config/messages.php:45
+msgid "Select an Icon"
+msgstr "Selecteer een icoon"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/control/upload.php:5
+msgid "Choose File"
+msgstr "Kies een bestand"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/impexp.php:4
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/impexp.php:14
+msgid "Import"
+msgstr "Importeren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1876
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/impexp.php:7
+msgid "Import Options"
+msgstr "Importeer instellingen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/impexp.php:27
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/impexp.php:37
+msgid "Export"
+msgstr "Exporteren"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/impexp.php:30
+msgid "Export Options"
+msgstr "Exporteer instellingen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/restore.php:4
+msgid "Restore Default Options"
+msgstr "Herstellen naar standaard instellingen"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/restore.php:7
+msgid "Restore options to initial default values."
+msgstr "Herstellen naar standaard instellingen."
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/restore.php:14
+msgid "** Please make sure you have already make a backup data of your current settings. Once you click this button, your current settings will be gone."
+msgstr "** Let op dat je reeds een backup hebt van je huidige instellingen. Zodra je op deze knop klikt, zijn je huidige instellingen verdwenen."
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/set.php:69
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/set.php:84
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/set.php:70
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/set.php:85
+msgid "Saving Now"
+msgstr "Bezig met opslaan"
+
+#: wp-ultimate-exercise-premium/core/vendor/vafpress/views/option/set.php:93
+msgid "This option panel is built using <a href=\"http://vafpress.com/vafpress-framework\">Vafpress Framework %s</a> powered by <a href=\"http://vafpress.com\">Vafpress</a>"
+msgstr "Dit bedieningspaneel is ontwikkeld met behulp van <a href=\"http://vafpress.com/vafpress-framework\">Vafpress Framework %s</a> gemaakt door <a href=\"http://vafpress.com\">Vafpress</a>"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1001
+msgid "General Settings"
+msgstr "Algemene Instellingen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:467
+msgid "Exercise Archive Pages"
+msgstr "Recept Archief Pagina's"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:365
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:391
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:473
+#: wp-ultimate-exercise-premium/premium/addons/exercise-search/widgets/exercise_search_widget.php:87
+msgid "Display"
+msgstr "Toon"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:369
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:477
+msgid "Only the excerpt"
+msgstr "Enkel de omschrijving"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:373
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:481
+msgid "The entire exercise"
+msgstr "Het volledige recept"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:492
+msgid "Display Thumbnail"
+msgstr "Toon Thumbnail"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:535
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1757
+msgid "404 error/page not found?"
+msgstr "404 fout/pagina niet gevonden?"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:536
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1758
+msgid "Try"
+msgstr "Probeer"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:536
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1758
+msgid "flushing your permalinks"
+msgstr "je permalinks te flushen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:19
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:78
+msgid "Exercise Template"
+msgstr "Recept Sjabloon"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:31
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:692
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:738
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:861
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:919
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1013
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1073
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1129
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1420
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1780
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1843
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1916
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1985
+msgid "These features are only available in "
+msgstr "Deze features zijn alleen beschikbaar in"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1084
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1140
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1431
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1791
+msgid "The shortcode can be added to any page or post."
+msgstr "De shortcode kan toegevoegd worden aan elke pagina of bericht."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1150
+msgid "Allow submissions from"
+msgstr "Laat inzendingen toe van"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1154
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1322
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1445
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1468
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1528
+msgid "Nobody"
+msgstr "Niemand"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1154
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1445
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1468
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1528
+msgid "disabled"
+msgstr "inactief"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1870
+msgid "Import Exercies"
+msgstr "Recepten Importeren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1977
+msgid "Export Exercies"
+msgstr "Recepten Exporteren"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:29
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:64
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:250
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:295
+msgid "Select a exercise to display"
+msgstr "Kies een recept om weer te geven"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:29
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:250
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:442
+msgid "Ordered by date added"
+msgstr "Gesorteerd volgens datum toegevoegd"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:64
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:295
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:461
+msgid "Ordered by title"
+msgstr "Gesorteerd volgens titel"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:101
+msgid "Exercise Index"
+msgstr "Recepten Index"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:104
+msgid "Basic Exercise Index"
+msgstr "Basis Recepten Index"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:110
+msgid "Show headers"
+msgstr "Toon koppen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:121
+msgid "Extended Exercise Index"
+msgstr "Uitgebreide Recepten Index"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:121
+msgid "WP Ultimate Exercise Premium only"
+msgstr "Enkel voor WP Ultimate Exercise Premium"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:127
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:89
+msgid "Group by"
+msgstr "Groepeer volgens"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:173
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:614
+msgid "Limit by"
+msgstr "Limiteer volgens"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:186
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:635
+msgid "Limit by values"
+msgstr "Limiteer volgens waarden"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:203
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:396
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:652
+msgid "Date Added"
+msgstr "Datum Toegevoegd"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:207
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:660
+msgid "Random"
+msgstr "Willekeurig"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:217
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:406
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:670
+msgid "Sort order"
+msgstr "Sorteer volgorde"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:221
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:410
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:674
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:225
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:414
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:678
+msgid "Descending"
+msgstr "Aflopend"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:235
+msgid "Max number of exercises"
+msgstr "Maximum aantal recepten"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:345
+msgid "User Submissions form"
+msgstr "Gebruiker Inzendingen formulier"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:358
+msgid "User Menus form"
+msgstr "Gebruiker Menus formulier"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:493
+msgid "Thumbnail position depends on the theme you use"
+msgstr "Thumbnail positie is afhankelijk van het theme dat je gebruikt"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:497
+msgid "Never"
+msgstr "Nooit"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:501
+msgid "Only on archive pages"
+msgstr "Alleen op archief pagina's"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:505
+msgid "Only on exercise pages"
+msgstr "Alleen op recept pagina's"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:509
+msgid "Always"
+msgstr "Altijd"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_list.php:33
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:45
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:59
+msgid "Do you really want to reset the taxonomies? All custom tags will be deleted."
+msgstr "Ben je zeker dat je de tags wil resetten? Alle eigen tags zullen verwijderd worden."
+
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:62
+msgid "Reset to defaults"
+msgstr "Reset naar beginwaarden"
+
+#: wp-ultimate-exercise-premium/premium/addons/exercise-grid/exercise-grid.php:171
+#: wp-ultimate-exercise-premium/premium/addons/exercise-grid/exercise-grid.php:356
+msgid "No exercises found."
+msgstr "Geen recepten gevonden."
+
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:124
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:44
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:78
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:48
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:160
+msgid "Amount"
+msgstr "Hoeveelheid"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:114
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:39
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:117
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:159
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:158
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:226
+msgid "New"
+msgstr "Nieuw"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:108
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:42
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:111
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:153
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:152
+#: wp-ultimate-exercise-premium/premium/addons/exercise-search/widgets/exercise_search_widget.php:53
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:229
+msgid "Search"
+msgstr "Zoek"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:118
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:43
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:44
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:121
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:163
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:162
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:230
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:231
+msgid "No"
+msgstr "Geen"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:118
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:43
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:121
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:163
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:162
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:230
+msgid "found."
+msgstr "gevonden."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:44
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:231
+msgid "found in trash."
+msgstr "gevonden in de vuilbak."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:45
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:232
+msgid "Parent"
+msgstr "Hoofd"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:109
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:112
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:154
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:153
+msgid "Popular"
+msgstr "Populaire"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:110
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:113
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:155
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:154
+#: wp-ultimate-exercise-premium/premium/addons/export-xml/templates/before_importing.php:10
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:28
+msgid "All"
+msgstr "Alle"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:112
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:115
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:157
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:156
+msgid "Update"
+msgstr "Updaten"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:114
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:13
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_list.php:15
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:117
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:159
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:131
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:491
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_form.php:16
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_list.php:12
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:158
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:13
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:15
+msgid "Name"
+msgstr "Naam"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:115
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:118
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:160
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:159
+msgid "Separate"
+msgstr "Scheid"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:115
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:118
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:160
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:159
+msgid "with commas"
+msgstr "met komma's"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:116
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:119
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:161
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:160
+msgid "Add or remove"
+msgstr "Toevoegen of verwijderen van"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:117
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:120
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:162
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:161
+msgid "Choose from the most used"
+msgstr "Kies uit de meest gebruikte"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:45
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:48
+msgid "Custom Taxonomies"
+msgstr "Eigen Taxonomies"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page.php:4
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:48
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page.php:4
+msgid "Custom Tags"
+msgstr "Eigen Tags"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:57
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:60
+msgid "Current Exercise Tags"
+msgstr "Huidige Recept Tags"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:58
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:61
+msgid "Add new Exercise Tag"
+msgstr "Voeg een nieuwe Recept Tag toe"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_list.php:9
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:143
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:531
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:622
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:9
+#: wp-ultimate-exercise-premium/premium/addons/exercise-search/widgets/exercise_search_widget.php:74
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:12
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:85
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:93
+msgid "Tag"
+msgstr "Tag"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:20
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_list.php:12
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:20
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:12
+msgid "Singular Name"
+msgstr "Naam (enkelvoud)"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:27
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_list.php:18
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:520
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1736
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1742
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:27
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:18
+msgid "Slug"
+msgstr "Slug"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_list.php:21
+#: wp-ultimate-exercise-premium/premium/addons/custom-fields/templates/page_list.php:15
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:21
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:79
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:27
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:93
+msgid "Actions"
+msgstr "Acties"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:1
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:1
+msgid "Create custom tags for your exercises."
+msgstr "Voeg eigen tags toe aan je recepten."
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:8
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:8
+msgid "Currently editing tag: "
+msgstr "Aanpassen van tag:"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:16
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:16
+msgid "(e.g. Courses)"
+msgstr "(bv. Maaltijden)"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:23
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:23
+msgid "(e.g. Course)"
+msgstr "(bv. Maaltijd)"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:30
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:30
+msgid "(e.g. http://www.yourwebsite.com/course/)"
+msgstr "(bv. http://www.jouwwebsite.com/maaltijd/)"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:37
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:36
+msgid "Add new tag"
+msgstr "Voeg nieuwe tag toe"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:38
+msgid "Adding new tags is only possible in"
+msgstr "Nieuwe tags toevoegen kan alleen in"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:41
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:38
+msgid "Edit tag"
+msgstr "Tag aanpassen"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_form.php:42
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_form.php:39
+msgid "Cancel Edit"
+msgstr "Stoppen met aanpassen"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:172
+msgid "tbsp"
+msgstr "el"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:192
+msgid "olive oil"
+msgstr "olijfolie"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:196
+msgid "extra virgin"
+msgstr "extra vierge"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:279
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:289
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:299
+msgid "Custom"
+msgstr "Eigen"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:214
+msgid "Menus"
+msgstr "Menus"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:448
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:467
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:215
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:253
+msgid "Menu"
+msgstr "Menu"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:435
+msgid "Shopping List"
+msgstr "Winkellijst"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1407
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:355
+msgid "User Menus"
+msgstr "Gebruiker Menus"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1158
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1326
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1449
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1472
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1532
+msgid "Guests and registered users"
+msgstr "Gasten en geregistreerde gebruikers"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1162
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1330
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1453
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1476
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1536
+msgid "Registered users only"
+msgstr "Enkel geregistreerde gebruikers"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:508
+msgid "Sorry, the site administrator has disabled user menus."
+msgstr "Sorry, gebruiker menus zijn niet geactiveerd."
+
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:513
+msgid "Sorry, only registered users may create menus."
+msgstr "Sorry, enkel ingelogde gebruikers mogen menus aanmaken."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:191
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:388
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:640
+msgid "Sort by"
+msgstr "Sorteer volgens"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1318
+msgid "Publish exercise immediately on submission."
+msgstr "Recept meteen publiceren na insturen."
+
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/user-submissions.php:96
+msgid "Sorry, the site administrator has disabled exercise submissions."
+msgstr "Sorry, recepten insturen is niet geactiveerd."
+
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/user-submissions.php:109
+msgid "Sorry, only registered users may submit exercises."
+msgstr "Sorry, enkel geregistreerde gebruikers mogen recepten insturen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:265
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:7
+msgid "Exercise title"
+msgstr "Recept titel"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:266
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:15
+msgid "Your name"
+msgstr "Jouw naam"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:24
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:16
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:68
+msgid "Featured image"
+msgstr "Uitgelichte afbeelding"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:33
+msgid "Add Featured Image"
+msgstr "Uitgelichte afbeelding toevoegen"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:34
+msgid "Remove Featured Image"
+msgstr "Uitgelichte afbeelding verwijderen"
+
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/templates/public_exercise_form.php:136
+msgid "Submit"
+msgstr "Insturen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1183
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/user-submissions.php:348
+msgid "Exercise submitted! Thank you, your exercise is now awaiting moderation."
+msgstr "Recept ingestuurd! Bedankt, jouw recept wacht nu op goedkeuring."
+
+#: wp-ultimate-exercise-premium/premium/addons/user-submissions/user-submissions.php:249
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:135
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:199
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:368
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:648
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/import-easyexercise.php:444
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/import-exercisecard.php:288
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:19
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:70
+msgid "Author"
+msgstr "Auteur"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:18
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:339
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:195
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:392
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:644
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:15
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:37
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:69
+msgid "Title"
+msgstr "Titel"
+
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:88
+#: wp-ultimate-exercise-premium/premium/helpers/widgets/exercise_list_widget.php:65
+msgid "Date"
+msgstr "Datum"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:352
+msgid "Exercise notes"
+msgstr "Extra informatie"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:14
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:601
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:637
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:912
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1006
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1051
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1122
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1413
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1773
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:1836
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:33
+msgid "General"
+msgstr "Algemeen"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:26
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:267
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:16
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:43
+msgid "Description"
+msgstr "Omschrijving"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:39
+#: wp-ultimate-exercise-premium/core/helpers/exercise_save.php:95
+msgid "star"
+msgstr "ster"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:39
+#: wp-ultimate-exercise-premium/core/helpers/exercise_save.php:95
+msgid "stars"
+msgstr "sterren"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:35
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:37
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:46
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:268
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:84
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:91
+msgid "Servings"
+msgstr "Porties"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:50
+msgid "(e.g. 2 people, 3 loafs, ...)"
+msgstr "(bv: 2 personen, 3 broden)"
+
+#: wp-ultimate-exercise-premium/core/helpers/migration/1_0_9_free_text_times.php:14
+#: wp-ultimate-exercise-premium/core/helpers/migration/1_0_9_free_text_times.php:17
+#: wp-ultimate-exercise-premium/core/helpers/migration/1_0_9_free_text_times.php:20
+#: wp-ultimate-exercise-premium/core/helpers/models/exercise.php:167
+#: wp-ultimate-exercise-premium/core/helpers/models/exercise.php:272
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:26
+#: wp-ultimate-exercise-premium/core/helpers/exercise_demo.php:28
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/import-easyexercise.php:225
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/import-easyexercise.php:230
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/import-easyexercise.php:238
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/import-fdx.php:81
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/import-fdx.php:83
+#: wp-ultimate-exercise-premium/premium/addons/import-fdx/import-fdx.php:85
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/import-exercisecard.php:141
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/import-exercisecard.php:146
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/import-exercisecard.php:154
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/import-recipress.php:173
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/import-recipress.php:174
+#: wp-ultimate-exercise-premium/premium/addons/import-recipress/import-recipress.php:175
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/import-ziplist.php:204
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/import-ziplist.php:209
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/import-ziplist.php:217
+msgid "minutes"
+msgstr "minuten"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:79
+msgid "Don't forget that you can tag your exercise with <strong>Courses</strong> and <strong>Cuisines</strong> by using the boxes on the right. Use the <strong>featured image</strong> if you want a photo of the finished dish."
+msgstr "Niet vergeten dat je je recept kan taggen met <strong>Maaltijden</strong> en <strong>Keukens</strong> met behulp van de kaders aan de rechterkant. Gebruik de <strong>uitgelichte afbeelding</strong> om een foto van het klaargemaakte gerecht te tonen."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:204
+msgid "Add an ingredient"
+msgstr "Voeg een ingrediënt toe"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:210
+msgid "<strong>Use the TAB key</strong> while adding ingredients, it will automatically create new fields. <strong>Don't worry about empty lines</strong>, these will be ignored."
+msgstr "<strong>Gebruik de TAB toets</strong> terwijl je ingrediënten toevoegt om automatisch nieuwe velden aan te maken. <strong>Negeer de lege lijnen</strong>, deze worden niet meegenomen."
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:49
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:215
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:18
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:88
+msgid "Instructions"
+msgstr "Instructies"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:301
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:330
+msgid "Add Image"
+msgstr "Foto toevoegen"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:302
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:331
+msgid "Remove Image"
+msgstr "Foto verwijderen"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:341
+msgid "Add an instruction"
+msgstr "Voeg een instructie toe"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:347
+msgid "<strong>Use the TAB key</strong> while adding instructions, it will automatically create new fields. <strong>Don't worry about empty lines</strong>, these will be ignored."
+msgstr "<strong>Gebruik de TAB toets</strong> terwijl je instructies toevoegt om automatisch nieuwe velden aan te maken. <strong>Negeer de lege lijnen</strong>, deze worden niet meegenomen."
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:41
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:54
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:269
+msgid "Prep Time"
+msgstr "Prep Tijd"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:43
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:62
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_whitelist.php:270
+msgid "Cook Time"
+msgstr "Kook Tijd"
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:55
+msgid "Powered by"
+msgstr "Mogelijk door"
+
+#: wp-ultimate-exercise-premium/core/helpers/admin_tour.php:48
+msgid "Exercise Settings"
+msgstr "Recept Instellingen"
+
+#: wp-ultimate-exercise-premium/core/helpers/plugin_action_link.php:12
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:14
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:55
+#: wp-ultimate-exercise-premium/core/helpers/vafpress_menu.php:56
+msgid "Settings"
+msgstr "Instellingen"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:152
+msgid "Exercise Box"
+msgstr "Recepten Box"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:170
+msgid "Adjustable Servings"
+msgstr "Aanpasbare Porties"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:171
+msgid "Allow users to dynamically adjust the servings of exercises."
+msgstr "Laat gebruikers toe om zelf de porties van de recepten aan te passen."
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:194
+msgid "Link to plugin"
+msgstr "Link naar plugin"
+
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:195
+msgid "Show a link to the plugin website as a little thank you."
+msgstr "Toon een link naar de plugin website bij wijze van dank."
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:20
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:4
+msgid "Exercies"
+msgstr "Recepten"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_meta_box.php:60
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:21
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:2010
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:35
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:70
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:256
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:301
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:11
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/widgets/nutrition_label_widget.php:54
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:91
+msgid "Exercise"
+msgstr "Recept"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:113
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:35
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:36
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:116
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:158
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:157
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:222
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:223
+msgid "Add New"
+msgstr "Toevoegen"
+
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/basic-custom-taxonomies.php:111
+#: wp-ultimate-exercise-premium/core/addons/basic-custom-taxonomies/templates/page_list.php:42
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:37
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:38
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:114
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:156
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/custom-taxonomies.php:155
+#: wp-ultimate-exercise-premium/premium/addons/custom-taxonomies/templates/page_list.php:42
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:101
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:224
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:225
+msgid "Edit"
+msgstr "Aanpassen"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:40
+#: wp-ultimate-exercise-premium/core/helpers/exercise_post_type.php:41
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:227
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/user-menus.php:228
+msgid "View"
+msgstr "Bekijken"
+
+#: wp-ultimate-exercise-premium/core/helpers/shortcodes/index_shortcode.php:51
+#: wp-ultimate-exercise-premium/premium/helpers/shortcodes/extended_index_shortcode.php:163
+msgid "You have to create a exercise first, check the 'Exercies' menu on the left."
+msgstr "Je moet eerst een recept aanmaken, neem eens een kijkje in het 'Recpeten' menu aan je linkerkant."
+
+#: wp-ultimate-exercise-premium/core/addons/custom-templates/templates/general/title.php:47
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:87
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:67
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_menu_options.php:256
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:120
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:34
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:17
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:56
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:38
+msgid "Ingredients"
+msgstr "Ingrediënten"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:111
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:67
+#: wp-ultimate-exercise-premium/premium/addons/import-easyexercise/templates/manual_import.php:126
+#: wp-ultimate-exercise-premium/premium/addons/import-exercisecard/templates/manual_import.php:46
+#: wp-ultimate-exercise-premium/premium/addons/import-text/templates/import_text.php:80
+#: wp-ultimate-exercise-premium/premium/addons/import-ziplist/templates/manual_import.php:50
+#: wp-ultimate-exercise-premium/premium/addons/nutritional-information/templates/settings.php:76
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:159
+#: wp-ultimate-exercise-premium/premium/addons/user-menus/templates/user-menus.php:173
+msgid "Ingredient"
+msgstr "Ingrediënt"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:68
+msgid "Courses"
+msgstr "Maaltijden"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:68
+msgid "Course"
+msgstr "Maaltijd"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:74
+msgid "Breakfast"
+msgstr "Ontbijt"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:75
+msgid "Appetizer"
+msgstr "Voorgerecht"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:76
+msgid "Soup"
+msgstr "Soep"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:77
+msgid "Main Course"
+msgstr "Hoofdgerecht"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:78
+msgid "Side Dish"
+msgstr "Bijgerecht"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:79
+msgid "Salad"
+msgstr "Salade"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:80
+msgid "Dessert"
+msgstr "Nagerecht"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:81
+msgid "Snack"
+msgstr "Snack"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:82
+msgid "Drinks"
+msgstr "Drinken"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:69
+msgid "Cuisines"
+msgstr "Keukens"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:69
+msgid "Cuisine"
+msgstr "Keuken"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:84
+msgid "French"
+msgstr "Frans"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:85
+msgid "Italian"
+msgstr "Italiaans"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:86
+msgid "Mediterranean"
+msgstr "Mediterraans"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:87
+msgid "Indian"
+msgstr "Indisch"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:88
+msgid "Chinese"
+msgstr "Chinees"
+
+#: wp-ultimate-exercise-premium/core/helpers/ingredient_units.php:394
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:89
+msgid "Japanese"
+msgstr "Japans"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:90
+msgid "American"
+msgstr "Amerikaans"
+
+#: wp-ultimate-exercise-premium/core/helpers/taxonomies.php:91
+msgid "Mexican"
+msgstr "Mexicaans"
+
+#: wp-ultimate-exercise-premium/core/helpers/exercise_form.php:32
+#: wp-ultimate-exercise-premium/core/helpers/vafpress/vafpress_shortcode_options.php:656
+#: wp-ultimate-exercise-premium/premium/addons/user-ratings/templates/user_rating.php:34
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:23
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:56
+#: wp-ultimate-exercise-premium/premium/helpers/exercise_columns.php:75
+msgid "Rating"
+msgstr "Score"

@@ -1,0 +1,135 @@
+.trainer_section,.trainer_parent{padding-left:0!important;display:inline-block;margin-right:20px}
+.trainer_section{display:table;margin:0 auto;width:100%;text-align:center;}
+.trainer_block{ text-align: center !important }
+span.trainer_child input { padding: 10px; width: 100%;max-width: 200px; }
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table .caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+}
+
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+table.table-two .ttbody-main {
+    border: 2px solid #000;
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+
+table thead tr {
+    background-color: #36304a;
+    color: #fff;
+}
+
+table th,
+table td {
+    padding: .625em;
+    text-align: center;
+}
+
+table th {
+    font-size: .72em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 2.5em
+}
+
+table tbody td {
+    font-size: .67em;
+    letter-spacing: .1em;
+    text-transform: capitalize;
+    padding: 0.425em;
+    line-height: 2.5em
+}
+
+.pd-t-b-20 {
+    padding: 20px 0;
+}
+
+table {
+    empty-cells: show;
+}
+
+.total-session-clr {
+    background-color: #00b0f0;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+    table caption {
+        font-size: 0.75em;
+    }
+    .table-one,
+    .table-two {
+        margin: 0px auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 340px;
+        width: 100%;
+    }
+    .table-one caption h1 {
+        font-size: 2.5em;
+        line-height: 1.8em;
+    }
+    .table-one caption h2 {
+        font-size: 1.3em;
+        line-height: 2em;
+    }
+    .table-one caption h3 {
+        font-size: 1.17em;
+        line-height: 1.75em;
+    }
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+        font-weight: 900;
+        font-size: 0.8em!important;
+    }
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    table td:last-child {
+        border-bottom: 0;
+    }
+    .total-session-clr {
+        background-color: #f8f8f8;
+    }
+    table.table-two .ttbody-main {
+        border: 0px solid;
+    }
+}

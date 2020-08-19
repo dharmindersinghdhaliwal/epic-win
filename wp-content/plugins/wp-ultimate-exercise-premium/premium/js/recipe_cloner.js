@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery('.clone-exercise').on('click',function(){var exercise=jQuery(this).data('exercise');var nonce=jQuery(this).data('nonce'),data={action:'clone_exercise',security:wpuep_exercise_cloner.nonce,exercise_meta_box_nonce:nonce,exercise:exercise};jQuery.post(wpuep_exercise_cloner.ajax_url,data,function(out){window.location=out.redirect},'json')})});

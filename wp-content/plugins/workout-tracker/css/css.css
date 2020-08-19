@@ -1,0 +1,218 @@
+#ewtwtt,#ewtsdt{display: block; clear: both; border: 1px solid #ddd;}
+#ewtwtt ul,#ewtsdt ul{ list-style: none; display: inline-block; float: left; border-right: 1px solid #ddd; margin:0 !important; padding: 0 !important }
+#ewtwtt li,#ewtsdt li{ border-bottom: 1px solid #ddd; padding: 0px; }
+#ewtwtt li{ height:50px; line-height: 50px; }
+.wt_data .wt_data_li {max-height: 48px;}
+.wt_lable li	{padding:0 5px !important}
+.wtdt{ height:24px !important}
+.wtExer {  height: 24px !important; line-height: 24px !important;}
+#ewtsdt li{ height:30px; line-height: 25px }
+#ewtwtt li:first-child{ height: 25px;line-height: 25px;}
+.wt_dat{ max-width: 76px }
+.wt_data_li{ min-width:82px;padding:1px !important }
+.wt_data_li:hover{ background: #bbebff; box-shadow: 2px 4px 8px -7px #000 !important  }
+.wtttab2 .wt_lable li:nth-child(2) { height: 24px !important;line-height: 24px;}
+.wtttab2 .wtExer { height: 30px !important;}
+.wtttab2 .wt_data .wt_data_li {height: 28px !important;}
+#ewtsdt .wt_data_li{ font-size: 12px }
+#ewtwtt input[type="text"],#ewtwtt input[type="tel"],#ewtwtt input[type="date"]{ padding: 2px; float: left; border: 1px solid #ddd;}
+.wt_data{ max-width: 120px }
+.wt_wet{ max-width: 88px;display: block; clear: both; margin-bottom: 1px }
+.wt_rep{ max-width: 24px }.wt_rep.wt_rep0{ clear:left}.wtsn{ text-align: center; }
+.wt_rep0,.wt_rep1{ margin-right:2px}
+/* Tab /List */
+#wottabs{background: #ddd;width: 100%; display: block; clear: both;}
+.wttlist,.wtttabs{ float: left; } .wttlist{	width: 19%; margin-right: 2%;}
+.wttlist ul{ margin:0; padding: 0; list-style: none; }
+.wttlist a{  text-decoration: none !important; display: inline-block;width: 100%; padding: 10px 0;color: #fff; text-align:center}
+.wttadd{  background: #3399ff; text-align: center;}
+.wttpst {  border-bottom: 1px solid #fff;}.wttpst a{ background: #151925 }
+.wt_ul .wttpst > a:focus, .wt_ul .wttpst > a:hover {background-color: #ff0000; color: #fff;}
+.wtttabs{	width: 79%;}
+.wttabul{margin: 0; margin-bottom: 10px; padding: 0; list-style: none; display: block; clear: both; float: left; }
+.wttabul li{ display: inline-block; float: left; margin-right: 10px }
+.wttabul a{ text-decoration: none !important;display: inline-block; padding: 10px 30px; background: #3399ff; color: #fff; border-radius: 5px }
+.wttabul .wttabli > a:focus, .wttabul .wttabli > a:hover {background-color: #ff0000; color: #fff;}
+.wttabact a{ background: red; color: #fff }
+.wtttabcnt{ display: block; clear: both; float: left; width: 100% }
+.wtttab{ display: none; }
+.wtttab.wtttab1{ max-width: 100%;}
+.post_title {	padding: 12px 0;	width: 78%; float:left;margin-bottom:1px; border: 1px solid #ddd;}
+.wttadd .add-title {background: #39f; color: #fff; float: left; height: 23px;  width: 21%;}
+.wtttab3 .wt_data .wt_data_li {  line-height: 28px !important;  max-height: 28px;}
+.wtttab5 .pinn-exercise textarea {border-image: none; border-style: none solid solid;
+border-width: medium 1px 1px; border-top: 1px solid #ddd;}
+/*-- Program Data Tab --*/
+.wtttab1 .scroll-x { max-width: 100%; overflow-x: scroll;}
+.wtttab1 .scroll-width { overflow: hidden; width: 1285px;}
+.wtttab2 .scroll-x { max-width: 100%; overflow-x: scroll;}
+.wtttab2 .scroll-width {overflow: hidden; width: 1285px;}
+.wtttab3 .scroll-x { max-width: 100%; overflow-x: scroll;}
+.wtttab3 .scroll-width { overflow: hidden;  width: 1285px;}
+/*Calculator  Tab  Starts*/ 
+.add-table:hover { background-color: #0080ff;  color: #fff;}
+.wtttab.wtttab5 h4, .wtttab.wtttab5 h6 {line-height: 30px;margin: 0;}
+.warmup h6:hover,.warmup h4:hover  { background: rgba(0, 0, 0, 0) linear-gradient(rgba(255, 0, 0, 1), rgba(255, 255, 255, 1)) no-repeat scroll 0 0; color: #fff;}
+.wtttab.wtttab5 ul {float: left;list-style: outside none none;margin: 0; padding: 0;text-align: center;
+  width: 19.5%;} .wtttab5 ul li:first-child {min-height: 32px; border-top: 1px solid #ddd;}
+.wtttab5 ul li {border-bottom: 1px solid #ddd; border-left: 1px solid #ddd; height: 24px;}
+.warmup {border-right: 1px solid #ddd;}
+.wtttab5 .see-from-data li:first-child {float: none;width: 100%;}
+.wtttab5 ul li input {min-height: 21px;border: none; border-bottom: 1px solid #ddd;}
+.wt_lable .inputsrch {padding: 0;margin: 0;border: 0; height: 28px;}
+#suggesstion-box {width: 152px;position:absolute;max-height:200px;overflow-y: scroll;padding:0;display:none}
+#suggesstion-box > li{background-color:#487e9a;border-bottom:1px solid #fff;border-radius:3px;color:#fff;cursor:pointer;font-size:13px;padding:5px 0 5px 10px}
+#suggesstion-box > li:last-child{border-bottom:none}
+#suggesstion-box > li:hover{background-color:#396c86}
+.onscroll #suggesstion-box{left:0;margin:5px auto 0;width:413px;position:absolute;right:150px;z-index:1}
+.exinfo{color:#39f;cursor:pointer;font-size:20px;margin:0 6px 0 0}
+.exinfo:hover,.exinfo:active{color:red}
+.loading{background-image:url(/wp-content/plugins/workout-tracker/img/reload.gif);background-repeat:no-repeat;background-position:center}
+.wtttab5 .see-from-data li input { border-bottom: medium none;  max-width: 90%;}
+/*Calculator  Tab  Ends*/
+.modal-content iframe {width: 100% !important;}
+/*-- Workout POP UP BOx --*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0; top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative; background-color: #fefefe; margin: auto;
+    padding: 0 0 120px; border: 1px solid #888;  width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Loading Popup Box */
+#loadingm.modal { background-color: rgba(0, 0, 0, 0.4);display: block;height: 100%;left: 0;
+  overflow: auto;padding-top: 100px;position: fixed; top: 0; width: 100%; z-index: 4;
+}
+#loadingm .modal-content {
+  animation-duration: 0.4s;animation-name: animatetop;
+  background-color: #fefefe;border: 1px solid #888;
+  bottom: 150px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  left: 0; margin: auto;position: absolute; right: 0;
+  top: 110px;width: 36%; max-height: 270px;
+}
+#loadingm .modal-header { background-color: #fff; color: white; padding: 2px 16px; text-align: center;}
+#loadingm .modal-content .modal-header > h2 { color: #555 !important; font-size: 20px;  margin: 0;}
+#loadingm .modal-body {padding: 2px 16px;text-align: center;}
+#loadingm .modal-body > img { height: auto;  max-width: 80px;}
+.page-id-5685 .modal-content .modal-header > h2 {color: #ffffff !important;font-size: 20px; margin: 0;}
+.modal-content { font-size: 11px;}
+.modal-content .modal-body > h4 { margin: 5px 0;}
+.modal-content .einst {margin: 0;}
+.modal-content .exdes { margin: 5px 0;}
+/* Add Animation */
+@-webkit-keyframes animatetop {  from {opacity:0}   to { opacity:1}}
+@keyframes animatetop { from {opacity:0} to {opacity:1}}
+/* The Close Button */
+.close { color: white; float: right; font-size: 28px; font-weight: bold;}
+.close:hover,.close:focus { color: #000; text-decoration: none; cursor: pointer;}
+.modal-header {padding: 2px 16px; background-color: #ed1c24; color: white;}
+.modal-body {padding: 2px 16px;}
+.modal-footer {padding: 2px 16px; background-color: #5cb85c; color: white;}
+
+/*-- TIMER TABS --*/
+.wtttabs .timer-tabs {clear: both;display: inline-block;width: 100%;}
+.timer-tabs > ul {list-style: outside none none;margin: 12px 0;padding: 0;text-align: center;}
+.timer-tabs ul li {display: inline-block;}
+.timer-tabs li button {background-color: #23b14d; border-radius: 4px; color: #fff; padding: 8px 18px; transition: all 0.3s ease 0s; min-width: 120px;display: block; cursor: pointer; border: none;}
+.timer-tabs li button:hover {background-color: #ED1C24;text-decoration: none;}
+.timer-tabs li i {margin-right: 5px;}
+.timer-tabs .disabled {pointer-events: none;}
+/* Old Workout Tracker CSS*/
+.workout-main{margin:30px 0;padding:0;top:0;width:100%}
+.workout-heading{padding:0;margin:0}.left-bar{float:left;width:20%}
+.right-bar{float:left;width:78%;margin-left:2%;overflow-x:scroll}
+.program-data,.program-data th,.program-data td,.strenght-data td,.strenght-data th,.volume-data th,.volume-data td{border:1px solid;padding:0;text-align:center}
+.program-data td,.strenght-data td,.volume-data td{font-size:16px;min-width:135px;text-align:center}
+.program-data input,.strenght-data input{padding:1px}
+.program-data input{border:none}.serch_workout_notes{background-color:#7be558;cursor:pointer}
+.serch_workout_notes:hover{background-color:#6FD851}
+.program-data .input3:first-child{border:none}
+.program-data .input3{border-bottom:medium none;border-right:1px solid #999!important;border-top:medium none;display:inline-block;float:left;padding:0;text-align:center;width:32.6%}
+.program-data .input3:last-child{border:none!important}
+.right-bar .datepicker{border:none !important;font-size:13px;margin:0 auto;text-align:center;width:135px!important}.wtdt .datepicker { border: medium none !important;}
+.tabs-data{margin:0 auto;padding:0;width:100%}
+.tabs-data a{border-radius:3px;display:inline-block;padding:10px 0;text-align:center;text-decoration:none;width:18.5%;color:#fff}
+.tabs-data a:hover{border-radius:3px;display:inline-block;padding:10px 0;text-align:center;text-decoration:none;color:#fff}
+.add_table{background:#39f none repeat scroll 0 0;border-radius:3px;display:inline-block;padding:10px;width:96%;text-align:center;text-decoration:none;color:#fff}
+.add_table:hover{background:#39f none repeat scroll 0 0;border-radius:3px;display:inline-block;padding:10px;width:96%;text-align:center;text-decoration:none;color:#fff}
+.workout-heading li{background:#151925;border-bottom:1px solid #fff;list-style:outside none none;padding:10px 0 10px 10px;width:100%}
+.workout-heading li:hover{background:red none repeat scroll 0 0}
+.workout-heading a{color:#fff;font-size:14px;text-decoration:none}
+.workout-heading a:hover{color:#fff;font-size:14px;text-decoration:none}
+.work-clicked{background-color:red!important}
+.save-workout{background:#39f;border-radius:4px;color:#fff;padding:12px 20px;text-decoration:none}
+.save-workout:hover{background:#39f;border-radius:4px;color:#fff;padding:12px 20px;text-decoration:none}
+#strn-data,#vol-data,#free-data,#cal-data{background:#39f}
+.selected-tab{background-color:red!important}.not-selected{background-color:#39F!important}
+.well {box-shadow: 0 0 10px rgba(0,0,0,0.3); display:none; margin:1em;	 }   
+#slide{-webkit-transition: all 0.4s;  -moz-transition: all 0.4s; transition: all 0.4s;}
+#slide {-webkit-transform: translateX(0) translateY(-40%);-moz-transform: translateX(0) translateY(-40%);
+ -ms-transform: translateX(0) translateY(-40%); transform: translateX(0) translateY(-40%);}
+.popup_visible #slide {-webkit-transform: translateX(0) translateY(0);-moz-transform: translateX(0) translateY(0); -ms-transform: translateX(0) translateY(0);transform: translateX(0) translateY(0);}
+.popup_background { z-index: 1 !important; background: transparent !important;}
+html body .popup_wrapper.popup_wrapper_visible {background: #fff;left: auto !important;right: 0 !important;top: 95px !important; width: 30% !important; z-index: 1 !important;box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);}
+.well.popup_content { padding: 20px;width: 100%;z-index: 1 !important; margin: 0;}
+.well div:first-child { padding: 0 !important;text-align: center !important;}
+.well span { display: block;margin-bottom: 20px;padding: 0 !important;}
+.well .user-menus-title { width: 80%;}
+.well .work-notes-main .cmt {border: 1px solid #ccc;display: block;margin: 40px 0; width: 334px;}
+.workout-main .initialism.slide_open {background: #3399ff none repeat scroll 0 0;border-radius: 50%;
+  border-style: none;color: #fff; cursor: pointer; display: inline-block;font-weight: bold;
+  height: 44px;width: 44px;}
+.workout-main .initialism.slide_open:hover {
+  background:rgba(0, 0, 0, 0) linear-gradient(rgba(255, 0, 0, 1),rgba(255, 255, 255, 1)) no-repeat;}
+.well.popup_content .display_comment { width: 90%;}
+.well .display_comment > div { text-align: left !important;}
+.display_comment span { float: left; margin: 0 auto; padding: 0;}
+.well .slide_close { background-color: #ff0000; border: medium none;color: #fff;cursor: pointer;
+  font-weight: bold; left: 0; padding: 4px 8px; position: absolute; top: 0;}
+.well .comment-section { margin: 10px 0 !important;}.submit_note{	border:none !important;}
+.submit_note:focus { background: #338a16 none repeat scroll 0 0;}
+.rmweight {width: 50% !important;}
+.see-from-data {width: 50% !important;}
+.see-from-data .from-data-weight {text-align: center;}
+.toggleli{display:none}
+#hideSHOW:hover {
+	font-size: 18px !important;
+}
+.paymentStyle span {
+	padding: 10px;
+}
+.paymentStyle {
+	width: 100%;
+	text-align: center;
+	display: flow-root;
+}
+.paymentStyle input {
+	width: 200px;
+	padding: 4px;
+}
+.paymentStyle a {
+	padding: 4px 18px;
+	background: #23b14d;
+	color: #fff;
+	border-radius: 4px;
+	margin-left: 20px;
+}
+.paymentStyle a:hover{
+	background-color: #ed1c24;
+	text-decoration: none;
+}

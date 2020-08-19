@@ -1,0 +1,1 @@
+jQuery(document).ready(function(o){function n(n){pointer=wpupg_eadmin_tour.pointers[n],options=o.extend(pointer.options,{close:function(){o.post(ajaxurl,{pointer:pointer.pointer_id,action:"dismiss-wp-pointer"})}}),o(pointer.target).pointer(options).pointer("open")}n(0)});

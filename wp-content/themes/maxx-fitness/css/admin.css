@@ -1,0 +1,36 @@
+/**
+ * Torbara Maxx-Fitness Theme for WordPress, exclusively on Envato Market: http://themeforest.net/user/torbara?ref=torbara
+ * @encoding     UTF-8
+ * @version      6.0.0
+ * @copyright    Copyright (C) 2015 Torbara (http://torbara.com). All rights reserved.
+ * @license      GNU General Public License version 2 or later, see http://www.gnu.org/licenses/gpl-2.0.html
+ * @author       Alexandr Khmelnytsky (support@torbara.com)
+ */
+
+.warp .tm-sidebar .tm-sidebar-logo {
+    background: url(../images/logo.png) no-repeat center center;
+    width: auto;
+    height: 40px;
+    margin: 25px 0 0;
+    padding: 0;
+    color: #fafbf8;
+    background-size: contain;
+}
+.warp .tm-sidebar .tm-sidebar-logo img {
+    display:none;
+}
+
+#warp .tm-sidebar {
+    width: 195px;
+}
+
+.wp-menu-image > img[src$="yoo_icon_16.png"] {
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../images/theme-icon.png) no-repeat;
+    width: 16px; /* Width of new image */
+    height: 16px; /* Height of new image */
+    padding-left: 16px!important; /* Equal to width of new image */
+    margin-top: 9px;
+}

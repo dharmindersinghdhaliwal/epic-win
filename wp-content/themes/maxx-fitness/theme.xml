@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+    <name>maxx-fitness</name>
+    <version>6.1.0</version>
+    <creationDate>September 2015</creationDate>
+    <author>Alexander Khmelnitskiy</author>
+    <authorEmail>info@torbara.com</authorEmail>
+    <authorUrl>http://info@torbara.com</authorUrl>
+    <copyright>Copyright (C) torbara.com</copyright>
+    <license>http://marketplace.envato.com/licenses/standard?license=regular</license>
+    <description>
+        <![CDATA[
+        <p>With unique design and accent in details Maxx Fitness is perfect template. Design have beautiful typography and elegant structure.</p>
+        <p>WordPress Theme is based on Warp 7 Framework and made for all who wants a lightweight and modular website.</p>
+        <p>The clean and modern design is perfect to create a website for your business. At the top of the page you can insert a text logo and slideshow or static image. And all 50+ widget positions are collapsible and have different styles which can be selected in WordPress Theme settings.</p>
+        <p>If your looking for the 1st class WordPress template, which you can easily customize, take a look at this.</p>
+        ]]>
+    </description>
+    <positions>
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+        <position settings="assignment class ttwidget">search</position>
+        <position settings="assignment class ttwidget animation animation_repeat animation_delay">logo</position>
+        <position settings="assignment class ttwidget animation animation_repeat animation_delay">fullscreen</position>
+        <position settings="title class assignment ttwidget">menu</position>
+        <position settings="title class assignment ttwidget animation animation_repeat animation_delay">toolbar-l</position>
+        <position settings="title class assignment ttwidget animation animation_repeat animation_delay">toolbar-r</position>
+        <position settings="assignment ttwidget animation animation_repeat animation_delay">breadcrumbs</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>top-c</position>
+        <position>top-d</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>bottom-c</position>
+        <position>bottom-d</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position settings="assignment class">social</position>
+        <position settings="assignment class animation animation_repeat animation_delay">footer</position>
+        <position settings="title assignment">offcanvas</position>
+        <position settings="ttwidget">debug</position>
+        <position settings="ttwidget">notexist</position>
+    </positions>
+</theme>

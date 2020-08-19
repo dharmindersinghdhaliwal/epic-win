@@ -1,0 +1,47 @@
+.wpuep-container {
+    .user-star-rating.user-can-vote li {
+        cursor: pointer;
+    }
+
+    .user-star-rating li {
+        display: inline-block;
+
+        width: 15px;
+        height: 14px;
+
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+
+        background-image: url(star_sprite.png) !important;
+        background-repeat: no-repeat;
+
+        &.full-star {
+            background-position: 0 -28px !important;
+        }
+
+        &.half-star {
+            background-position: 0 -14px !important;
+        }
+
+        &.selecting-rating {
+            background-position: 0 -42px !important;
+        }
+    }
+}
+
+html body .wpuep-exercise-stars .exercise-tooltip-content {
+    min-width: 120px !important;
+
+    .vote-attention-message {
+        display: none;
+        text-align: center;
+    }
+
+    .user-rating-votes,
+    .user-rating-rating,
+    .user-rating-current-rating {
+        font-weight: bold;
+        float: right;
+    }
+}

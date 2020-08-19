@@ -1,0 +1,40 @@
+<?php
+
+class WPUEP_Template_Image extends WPUEP_Template_Block {
+
+    public $url;
+    public $preset = false;
+
+    public $editorField = 'image';
+
+    public function __construct( $type = 'image' )
+    {
+        parent::__construct( $type );
+    }
+
+    public function url( $url )
+    {
+        $this->url = $url;
+        return $this;
+    }
+
+    public function preset( $preset )
+    {
+        $this->preset = $preset;
+        return $this;
+    }
+
+    public function output( $exercise, $args = array() )
+    {
+        if( !$this->output_block( $exercise, $args ) ) return '';
+
+        if( $this->preset ) {
+            $this->url = WPUltimateExercise::addon( 'template-editor' )->addonUrl . '/img/' . $this->preset . '.png';
+        }
+
+        $output = $this->before_output();
+        $output .= '<img src="' . $this->url . '"' . $this->style() . '\>';
+
+        return $this->after_output( $output, $exercise );
+    }
+}

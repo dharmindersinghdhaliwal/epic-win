@@ -1,0 +1,455 @@
+table.epic-table {
+	margin: 20px 0 0 0;
+}
+
+table.epic-table th {font-family: Open Sans,'Helvetica','Arial';font-size: 12px;}
+
+table.epic-table td { padding: 10px }
+
+table.epic-table .regular-text {
+	width: 94%;
+}
+
+table.epic-table td i {
+	font-size: 20px;
+}
+
+table.epic-table i.epic-tooltip2, table.epic-table i.epic-tooltip, table.epic-add-form i.epic-tooltip2 {
+	margin: 0 0 0 6px;
+	cursor: help;
+	color: #366799;
+	font-size: 14px;
+}
+table.epic-table i.epic-tooltip2:hover,
+table.epic-table i.epic-tooltip:hover,
+table.epic-add-form i.epic-tooltip2:hover {color: #ff7000}
+
+table.epic-table a {color: #666}
+
+table.epic-table a.epic-trash {color: #ff0000}
+
+/* The inline editor */
+.epic-editor * {font-size: 11px}
+
+.epic-editor p {
+	display: block;
+}
+
+table.epic-table tr.epic-editor label.epic-icons {
+	margin: 0 20px 0 0;
+	padding:0 0 10px 0;
+	float: left;
+	width: 50px;
+	display: none;
+}
+
+table.epic-table tr.epic-editor label.epic-icons i {
+	font-size: 14px;
+	margin: 0 0 0 10px;
+}
+
+i.epic-ticked {
+	background: url(../images/tick.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: block;
+}
+
+i.epic-unticked {
+	background: url(../images/untick.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: block;
+}
+
+p.epic-hide {
+	display: none;
+}
+
+/* Form that adds new fields */
+table.epic-add-form {
+	border: 1px solid #ddd;
+	display: none;
+}
+
+tr.epic-editor {display: none}
+
+table.epic-add-form label.epic-icons {
+	margin: 0 20px 0 0;
+	padding:0 0 16px 0;
+	float: left;
+	width: 55px;
+}
+
+table.epic-add-form label.epic-icons i {
+	line-height: 20px;
+	color: #444;
+	cursor: pointer;
+	margin: 0 0 0 10px;
+	font-size: 18px;
+}
+
+.mce-i-epic_shortcodes_button,span.mce_epic_shortcodes_button{background-image:url(../images/epic-icon-20.png)!important;background-repeat:no-repeat!important;background-position:center!important}
+
+.text-area
+{
+	width: 50% !important;
+	
+}
+
+.option-help
+{
+	font-size: 15px;
+margin-left: 10px;
+color: #366799;
+}
+
+.option-help:hover
+{
+	color: #ff7000;
+}
+
+.dragging
+{
+	background-color: #F5FA5C;
+}
+
+/* Tabbing */
+
+.epic-shortcode-popup-tabs { padding: 0; clear: both; }
+.epic-shortcode-popup-tabs li a { background: #f5f5f5; padding: 5px; float:left; border-right: 1px solid #ccf; border-bottom: 2px solid #CCC; text-decoration: none; color: #444; font-weight: bold; }
+.epic-shortcode-popup-tabs li.active a { background: #D8D8D8; color: #1A1818 !important; border-bottom: 2px solid #1A1818; }
+.epic-shortcode-popup-content { float: left; clear: both; border-top: 0px none; background: #f5f5f5; padding: 10px 20px 20px; width: 565px; }
+
+.small_help
+{
+	font-size: 11px;
+font-style: normal;
+color: #666;
+}
+
+/* New Setting Page Design */
+.epic-tab-group
+{
+	background-color: #F1F1F1;
+	border: 1px solid #DFDFDF;
+	margin-right: 9px;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	display: block;	
+}
+
+.epic-tabs
+{
+	width: 175px;
+	float: left; 
+	margin: 10px 0px 0px 0px;
+}
+
+.epic-tabs li
+{
+	margin: 10px 0px;
+	padding: 5px 0px 5px 5px;
+	cursor: pointer;
+}
+
+.epic-tabs li.active
+{
+	font-weight: bold;
+	background-color: #777;
+	color: #FFF; 
+}
+
+.epic-tab-content-holder
+{
+	overflow: hidden;
+}
+
+.epic-tab-content{
+	min-height: 500px;
+}
+
+.epic-tab-container
+{
+	margin-left: 175px;
+	background-color: #FFF;
+	padding: 20px 20px 40px 20px;
+	border-left: 1px solid #DFDFDF	
+}
+
+.epic-tab-content h3
+{
+	font-size: 1.6em;
+	margin-top: 2px;	
+}
+
+.epic-help-text{
+    width: 25em;
+}
+
+.epic-admin-inline-checkbox, td.epic-admin-inline-checkbox {
+	padding: 0 10px !important;
+	vertical-align: top !important;
+}
+
+/* epic Admin Custom Fields Styles */
+.epic-field-table-footer,.epic-field-table-header{
+	float: left;
+	font-size: 12px;
+	padding: 10px;
+	width: 5%;
+	background: #fff;
+}
+
+.epic-field-table-footer-extend,.epic-field-table-header-extend{
+	width: 7%;
+}
+
+.epic-field-table-headers{
+	background: #FFF;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+.epic-field-table-footers{
+	background: #FFF;
+	border-top: 1px solid #E1E1E1;
+}
+
+
+.epic-field-table-data{
+	float: left;
+	font-size: 12px;
+	padding: 10px;
+	width: 5%;
+}
+
+.epic-field-table-data-extend{
+	width: 7%;
+}
+
+epic-table {
+	margin: 20px 0 0 0;
+}
+
+
+.epic-table .regular-text {
+	width: 94%;
+}
+
+.epic-table div i {
+	font-size: 20px;
+}
+
+.epic-table i.epic-tooltip2, .epic-table i.epic-tooltip, .epic-add-form i.epic-tooltip2 {
+	margin: 0 0 0 6px;
+	cursor: help;
+	color: #366799;
+	font-size: 14px;
+}
+.epic-table i.epic-tooltip2:hover,
+.epic-table i.epic-tooltip:hover,
+.epic-add-form i.epic-tooltip2:hover {color: #ff7000}
+
+.epic-table a {color: #666}
+
+.epic-table a.epic-trash {color: #ff0000}
+
+
+.epic-table div.epic-editor label.epic-icons {
+	margin: 0 20px 0 0;
+	padding:0 0 10px 0;
+	float: left;
+	width: 50px;
+	display: none;
+}
+
+.epic-table div.epic-editor label.epic-icons i {
+	font-size: 14px;
+	margin: 0 0 0 10px;
+}
+
+div.epic-editor {display: none;background: #FFF;}
+
+#epic-form-customizer-table{
+	border: 1px solid #E5E5E5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin-top: 20px;
+}
+
+.epic-edit-table-column{
+	width: 25%;
+	float: left;
+	padding: 2%;
+}
+.epic-edit-table-column-last{
+	width: 40%;
+	float: left;
+	padding: 1%;
+}
+
+#epic-form-customizer-table-data,#epic-form-customizer-table-data li{
+	margin: 0;
+}
+
+.update_processing{
+    color: #75B84D;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 5px;
+    display: none;
+}
+
+#epic_site_restriction_rules{
+	border:1px solid #cfcfcf;
+}
+#epic_site_restriction_rules_titles{
+	background: #eee;
+	border-bottom: 1px solid #CFCFCF;
+}
+#epic_site_restriction_rules_titles th{
+	padding: 10px;
+}
+
+/* Styles for chosen dropdown */
+.search-field .default{
+    width: 90% !important;
+}
+
+#email_template_chosen{
+	width: 80% !important;
+}
+
+/* Required fields highlight */
+span.epic-required{
+    color: #F31212;
+}
+
+/* Styles for Addons List */
+#epic-addons-feed .epic-addon-single{
+    background: none repeat scroll 0 0 #fff;
+    box-sizing: border-box;
+    float: left;
+    margin: 10px 1%;
+    padding: 1%;
+    width: 31%;
+    border: 1px solid #CFCFCF;
+}
+
+
+#epic-addons-feed .epic-addon-single-title{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#epic-addons-feed .epic-addon-single-image img{
+    width: 100%;
+    height: 200px;
+}
+
+#epic-addons-feed .epic-addon-single-desc{
+    padding: 10px 0;
+}
+
+#epic-addons-feed .epic-addon-single-buttons div{
+    color: #3c3535;
+    float: left;
+    font-weight: bold;
+    margin: 10px 2px;
+    max-width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#epic-addons-feed .epic-addon-single-status{
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #cfcfcf;
+    width:30%;
+}
+
+#epic-addons-feed .epic-addon-single-type{
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #cfcfcf;
+    width:25%;
+}
+
+#epic-addons-feed .epic-addon-single-get{
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #cfcfcf;
+    width:30%;
+}
+
+.epic-module-settings-sub-title{
+	border-bottom: 1px solid #555555;
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.epic-module-settings-button-bar{
+	padding: 20px 0;
+}
+
+.epic-module-settings-button-bar button.active{
+	background: #267999;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 980px) {
+    #epic-addons-feed .epic-addon-single{
+        width:45%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #epic-addons-feed .epic-addon-single{
+        width:95%;
+    }
+}
+
+@media only screen and (min-width: 261px) and (max-width: 300px) {
+    #epic-addons-feed .epic-addon-single{
+        width:95%;
+    }
+}
+
+@media screen and (max-device-width: 480px) 
+{ 
+    #epic-addons-feed .epic-addon-single{
+        width:95%;
+    }
+}
+
+
+.epic-admin-setting-view-link{
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px 0;
+}
+
+.epic-admin-user-view-link{
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 80px;
+}
+
+.epic-admin-profile-image{
+    max-height: 200px;
+}
+

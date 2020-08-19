@@ -1,0 +1,88 @@
+.classcat ul {list-style: none;}
+.schedule ul {background: #f54555 none repeat scroll 0 0;height: 120px; width: 220px;overflow:hidden;list-style:none;padding:0;border-bottom: 1px solid #CCC;margin:0;}
+.schedule ul li i {color: #fff; font-size:12px;margin-right: 5px}
+.schedule > i {position: absolute;right: 0;cursor: pointer;color: #fff;}
+.pimg {float: left;height: 55px; width: 55px;  margin: 10px;}
+.ptitle {color: #fff; display: block; font-size: 12px;font-weight: 700; line-height: 18px; padding: 6px;
+ text-transform: uppercase;}
+.ptime {color: #fff;display: block;font-size: 12px;}
+.chead {background-color: #dc3e4c; color: #fff;font-size: 16px;padding: 5px;font-weight: 700;max-width: 220px;text-align: center;}
+.schedule {background: #f54555 none repeat scroll 0 0; max-width: 200px;}
+.months {background: #dc3e4c none repeat scroll 0 0;}
+.date-formatted, .month-name {color: #fff;}
+.day {background: #29b1bd none repeat scroll 0 0;color: #fff;font-size: 16px !important;font-weight: 700 !important;padding: 2px 0;}
+.calendar .cell-content {background: #2d2a2a none repeat scroll 0 0;padding-bottom: 20px;}
+.day-number {color: #fff;font-size: 35px !important;padding: 10px 0;}
+.class-count {background: #f54555 none repeat scroll 0 0;color: #fff;font-size: 16px;font-weight: 700;padding: 2px 12px;text-decoration: none !important;text-transform: uppercase; border-radius:2px}
+.class-count:hover {color: #fff;}
+/** ATTENDANCE SEARCH**/
+.attendance-row-first{ width: 48% !important;float: left;display: inline-block; }
+.attendance-duration-row{ width: 25% !important;display: inline-block;margin-top: 125px; }
+.attendance-duration-row li{ box-shadow: none !important; border:none !important; }
+.attendance-trainer-row li{ box-shadow: none !important; border:none !important; }
+.attendance-trainer-row{ width: 25% !important;display: inline-block;margin-top: 125px; }
+.attendance-search-main {	width: 100%;}
+.attendanceDay {width: 50%;float: left;text-align: center;}
+.attendanceDay ul {width: 100%;padding: 0;	list-style: none;}
+.attendanceDay li {width: 70%;display: inline-block;border-bottom: 1px solid #ddd;border-right: 1px solid #ddd;
+border-left: 1px solid #ddd;padding: 2px;box-shadow: 0px 0px 2px 0px;}
+.attendanceDay li:hover {	background: #BBEBFF;	box-shadow: 0;	color: #fff;}
+.attendanceDay li:first-child {border-top: 1px solid #ddd;}
+.attendanceDay img {width: 100px;}
+.searchSection {width: 100%;	text-align: center;}
+#searchAttendance {background: #7be558 none repeat scroll 0 0;border-radius: 5px;color: #fff;cursor: pointer;
+padding: 8px 20px;text-decoration: none;}
+#searchAttendance:hover {background: #a3ed8b;}
+#attendanceDate {padding: 8px;border-radius: 2px;border: 1px solid #ddd;	margin-right: 10px;}
+/*All Attendance Achievements*/
+.attendance-achievements-main {width: 100%;}
+.attendance-achievements-left {width: 20%;float: left;	border: 1px solid #ddd;clear: both;}
+.attendance-achievements-right {width: 79%;float: left;border: 1px solid #ddd;}
+.attendance-achievements-right ul {margin: 0;padding: 0;list-style:none;}
+.attendance-achievements-right li {border-bottom: 1px solid #ddd;	min-height: 28.5px;}
+.attendance-achievements-right li:last-child {border: none;}
+.attendance-achievements-right span {text-align: left;float: left;width: 107px;font-size: 12px;font-weight: 700;padding-left: 5px;}
+.attendance-achievements-right a {text-decoration: none;color: #ffff;padding: 1px 1px;min-width: 78px;display: inline-block;float: left;margin: 1px;text-align: center;background: #2a7386;}
+./*attendance-achievements-right .Unlock{text-decoration: none;}*/
+.attendance-achievements-right a:hover {background-color: #3899b3;text-decoration:none;color:#fff;}
+.Unlock.not-active {
+	pointer-events:none;
+	cursor: default;
+}
+.Success.not-active {
+	pointer-events: all;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+}
+.Success.not-active:hover {
+	background-color: #3899b3;
+	text-decoration: none;
+	color: #fff;
+}
+.ajax-Loading {
+	position: relative;
+	width: 100%;
+}
+.ajax-Loading img {
+	position: absolute;
+	top: auto;
+	left: 40%;
+	width: 150px;
+	background: #fff;
+	border-radius: 100%;
+}
+.Success.active{text-decoration: none;background: #339933; pointer-events: auto;cursor: pointer;}
+.Success.active:hover {background: linear-gradient(#339933,#80bf80)!important;text-decoration: none;color: #fff;}
+.total-attendance {width: 50px !important;	text-align: center !important;}
+.attendance-achievements-img {width: 35%;float: left;}
+.attendance-achievements-img img {width: 100%;}
+.attendance-achievements-info {width: 65%;float: left;	text-align: center;}
+.attendance-achievements-left p {font-size: 12px;font-weight: 700;margin: 4px auto;text-align: left;padding-left: 12px;}
+.attendance-achievements-left span {background: #2a7386;color: #fff;padding: 5px 5px;font-size: 11px;	border-radius: 2px; cursor:pointer;}
+.attendance-achievements-label label {min-width: 80px !important;float: left !important;text-align: center;}
+.attendance-achievements-label {width: 65% !important;float: right !important;}
+.tm-navbar.uk-navbar-attached.tm-sticky-menu{z-index: 999999 !important;}
+.mobile-attendance {display:none;}
+p{clear:both;}
+.info-remind span:hover {background: #3899b3;}
