@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
 * Hit list admin section class
 *
@@ -31,7 +31,7 @@ class hit_list_challenges_admin {
 		//	echo'<h1>Sorry You are not Administrator</h1>';
 		//}
 	}
-	
+
 	public function challenges_admin_ajax(){
 		if($_REQUEST){
 			$uid		=	$_REQUEST['uid'];
@@ -61,7 +61,7 @@ class hit_list_challenges_admin {
 				$unlocked	=	dpa_has_user_unlocked_achievement($uid, intval($challenge_id));
 				?>
 				<div class="uk-width-medium-1-3" pid="<?php echo $challenge_id;?>">
-					<article id="item-<?php echo $challenge_id;?>" <?php post_class('uk-article rltv');?> data-permalink="<?php echo get_the_permalink($challenge_id); ?>">
+					<article id="item-<?php echo $challenge_id;?>" class="uk-article rltv lesson type-lesson status-publish hentry post" data-permalink="<?php echo get_the_permalink($challenge_id); ?>">
 					<a class="uk-align-left " href="<?php echo get_the_permalink($challenge_id) ?>">
 						<?php echo get_the_post_thumbnail($challenge_id,array(400,340));?></a>
 					<div>
@@ -88,9 +88,9 @@ class hit_list_challenges_admin {
 							if(!$unlocked){
 								?><a href="javascript:void(0)" class="unlock-achievement-btn" id="<?php echo $challenge_id;?>" dpa_code="<?php echo get_post_meta(intval($challenge_id), '_dpa_redemption_code',true); ?>">Unlock Achievement</a><?php
 							}
-							else{
+							/*else{
 								?><a href="javascript:void(0)" class="unlock-achievement-btn remove" id="<?php echo $challenge_id;?>" style="pointer-events: none;  background: #ed1c24"> Unlock Achievement</a><?php
-							}
+							}*/
 						?></div>
 						</div>
 					</div>

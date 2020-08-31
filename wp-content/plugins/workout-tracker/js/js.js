@@ -94,7 +94,7 @@ var wt_strength_data=function(uid,pid){
 		success:function(data){
 			//if(data){
 				$('.wtttab2').html(data);
-				wt_volume_data(uid,pid);				
+				wt_volume_data(uid,pid);
 				wt_calculator_data(uid,pid);
 			//}
 		}
@@ -107,8 +107,8 @@ var wt_volume_data=function(uid,pid){
 		data:{'action':'wt_tab_get_user_data_ajax','uid':uid,'pid':pid,'act':'get_volume_data'},
 		success:function(data){
 			//if(data){
-				$('.wtttab3').html(data);				
-				wt_free_form_data(uid,pid);				
+				$('.wtttab3').html(data);
+				wt_free_form_data(uid,pid);
 			//}
 		}
 	});
@@ -152,18 +152,17 @@ var wt_get_workout_notes_ajax=function(pid,uid){
 		type:'POST',url:wp_ajax_url(),
 		data:{'action':'get_workout_notes','uid':uid,'pid':pid},
 		success:function(data){
-
-			if(data){$('.display_comment').html('');
-			$('.display_comment').html(data);
+			if(data){
+				$('.cmt').val();
+				$('.display_comment').html('').html(data);
 		}
 		else{
-			$('.display_comment').html('');
 			$('.display_comment').html('<h3 style="color:red">Nothing Found For this Client</h3>');
 			}
 		}
 	})
 };
-	
+
 /*----	When click on a tracker post get user data	----*/
 var wt_get_data_using_tracker_post = function(){
 	$(document).on('click','.wttpst',function(){
@@ -463,7 +462,7 @@ jQuery(document).ready(function(){(function($){
 			if (number < 0) {audio2[0].play();clearInterval(interval);$(btnid).removeClass("disabled");}
 		}, 1000);
 	};
-	
+
 	/*----	Pop up	----*/
 		$('#slide').popup({ focusdelay: 400,outline: true,vertical: 'top'});
 		$('.add-table').click(function(){$('.add-table').hide();$('.post_title').show();$('.add-title').show();});
@@ -473,7 +472,7 @@ jQuery(document).ready(function(){(function($){
 	/*--------------------------------------------------------------------------*/
 	$('.add-title').click(function(){
 		var title	=	$('.post_title').val();
-		var uid	=	$('#work_email').val();
+		var uid		=	$('#work_email').val();
 		if(title==''){
 			alert('Please Add Title');
 			return false;
@@ -483,7 +482,9 @@ jQuery(document).ready(function(){(function($){
 			return false;
 		}
 		else{
-			jQuery.ajax({type:'POST',url:wp_ajax_url(),
+			jQuery.ajax({
+				type:'POST',
+				url:wp_ajax_url(),
 			data:{'action':'add_post','title':title,'uid':uid},
 			beforeSend: function(){
 				$(".post_title").addClass('loading');
@@ -493,19 +494,23 @@ jQuery(document).ready(function(){(function($){
 					$(".post_title").removeClass('loading');
 					$('.wt_ul').prepend('<li pid="'+data+'" class="wttpst wttpst'+data+'"><a pid="'+data+'" href="javascript:void(0)">'+title+'</a></li>');
 					console.log('Created Post id :',data);
-					$('#ewtwtt input').val('');	$('.wt-pid').val(data);
-					$('.add-table').show();		$('.add-title').hide();
-						$('.post_title').hide();	$('.post_title').val('');
-					}
-					else{
+					$('#ewtwtt input').val('');
+					$('.wt-pid').val(data);
+					$('.add-table').show();
+					$('.add-title').hide();
+					$('.post_title').val('').hide();
+				}else{
 						alert('Unable to Add Title');
 					}
-				}
-			})
-		}
-	});
+			}
+		})
+	}
+});
 
-	$('.record_note').click(function(){ $('.cmt').show(); $('.record_note').hide();});
+$('.record_note').click(function(){
+	$('.cmt').show();
+	$('.record_note').hide();
+});
 
 	/*---------------------------------------------------------------------------*/
 	/*					 SAVE TRAINSER NOTES								*/
@@ -513,7 +518,7 @@ jQuery(document).ready(function(){(function($){
 	$('.submit_note').click(function(){
 		var metaid	= 	$('#work_email').val();
 		var comment	=	$('.cmt').val();
-		var num		=	$('.cnotes').length;
+		var num			=	$('.cnotes').length;
 		var postid	=	$('.wttabact').attr('pid');
 		if(metaid==''){
 			alert('Please Select Client');
@@ -522,13 +527,18 @@ jQuery(document).ready(function(){(function($){
 		wt_save_trainer_notes_ajax(metaid,comment,postid,num);	 // SAVE TRAINER NOTES
 		var pid	=	postid;
 		var uid	=	metaid;
-		jQuery.ajax({	
+		jQuery.ajax({
 			type:'POST',url:wp_ajax_url(),
 			data:{'action':'get_workout_notes','uid':uid,'pid':pid},
 			beforeSend: function(){$('#loadingm').show();},
 			success:function(data){
-				if(data){$('.display_comment').html('');$('.display_comment').html(data);}
-				else{$('.display_comment').html('');$('.display_comment').html('<h3 style="color:red">Nothing Found For this Client</h3>');}
+				if(data){
+					$('.cmt').val('')
+					$('.display_comment').html(data);
+				}
+				else{
+					$('.display_comment').html('<h3 style="color:red">Nothing Found For this Client</h3>');
+				}
 			}
 		})
 	});
@@ -540,13 +550,13 @@ jQuery(document).ready(function(){(function($){
 		$(document).on('change','.wt_wet,.wt_rep,.wt_dat',function(){
 			var uid	=	$('#wtuid').val();
 			var pid	=	$('#wtpid').val();
-			var inp 	=	$(this);
+			var inp =	$(this);
 			var val	=	inp.val();
-			var dty 	=	inp.attr('dt');
+			var dty =	inp.attr('dt');
 			var li	=	inp.parents('li');
-			var uln 	=	li.parents('ul').attr('ulno');
-			var lin 	= 	li.attr('lino');
-			var key 	=	'wt_'+pid+'_'+dty+'_'+uln+'_'+lin;
+			var uln =	li.parents('ul').attr('ulno');
+			var lin = li.attr('lino');
+			var key =	'wt_'+pid+'_'+dty+'_'+uln+'_'+lin;
 			$.ajax({
 				type:"POST",	url:wp_ajax_url(),
 				data:{'action':'wt_tab_get_user_data_ajax','uid':uid,'pid':pid,'act':'update_data','key':key,'val':val},

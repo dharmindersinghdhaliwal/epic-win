@@ -51,7 +51,7 @@
 .display_comment{border-top:1px solid #ccc;padding:20px 0}
 .display_comment .avatar.avatar-50{margin-right:20px;max-height:45px;width:45px;float:left}
 .display_comment span{color:#ed1c24}
-.cnotes{border-bottom:1px dotted #ccc;color:#1c1c1c;margin:3px 0;padding-bottom:10px; font-size: 12px;}
+.cnotes{border-bottom:1px dotted #ccc;color:#1c1c1c;margin:3px 0;padding-bottom:10px; font-size: 12px;word-wrap: break-word;}
 .cnotes:last-child{border:medium none}
 .work-name { margin: 0;}
 .serch_user_notes{background:#7BE558 none repeat scroll 0 0;border-radius:5px;color:#fff;cursor:pointer;padding:10px}
@@ -91,7 +91,6 @@
 
 .epic-edit-wp_6k0zw8zryb__dpa_unlocked_count,.epic-edit-grp_class_attended,.epic-edit-pt_sessions_attended,.epic-edit-fire_class,.epic-edit-wp_6k0zw8zryb__dpa_points,.epic-edit-_dpa_ice,.epic-edit-_dpa_first_strike_boxing{pointer-events:none}
 .epic-_dpa_first_strike_boxing i{margin-right:3.8px}
-.ettcont #mCSB_1_container{width:2641px!important}
 mCSB_1_container .ettvaluse{padding:0}
 .ettvaluse > li input{padding:3px 0 1px}
 .tm-block-top-b.tm-section-dark.tm-section-image{background-image:url(images/top-b-dark-bg.jpg)!important}
@@ -505,4 +504,53 @@ html body .popup_wrapper.popup_wrapper_visible {background: #fff;left: auto !imp
 }
 .navigation.achivement a {
     color: #fff;
+}
+
+/*  */
+
+@media screen and (max-width:740px){
+	.uk-width-small-2-5-1{
+		width:50% !important;
+		padding: 5px 0px !important;
+	}
+	.uk-width-small-2-5-1 span.tm-uppercase, #admin-hit-list .challenge-matter span.tm-uppercase{
+		font-size:8px !important;
+		line-height:1.5 !important;
+		text-align: left;
+	}
+	.uk-width-small-2-5-1 h6.tm-uppercase, #admin-hit-list .challenge-matter h6.tm-uppercase{
+		font-size:10px !important;
+		    text-align: left;
+	}
+	.term-feats-of-strength .tm-page-workouts .hit-list, .term-feats-of-strength .tm-page-workouts .remove, .mobile-two-cols .hit-list,.mobile-two-cols .remove {
+		font-size: 10px;
+    	padding: 0 12px;
+	}
+	.term-feats-of-strength .tm-page-workouts .remove i ,.mobile-two-cols .remove i, .mobile-two-cols .hit-list {
+		padding : 5px;
+	}
+
+	#admin-hit-list .unlock-achievement-btn{
+		font-size: 8px;
+		padding: 0px;
+		position: absolute;
+		bottom:0;
+		width: 100%;
+		left: 0%;
+		border-radius :0;
+	}
+	#admin-hit-list .challenge-matter span.tm-uppercase,#admin-hit-list .challenge-matter h6.tm-uppercase{
+		text-align:center !important;
+		padding: 1%;
+	}
+	#admin-hit-list .challenge-matter div, .admin-hit-list .uk-width-medium-1-3 {
+		margin:0 !important;
+	}
+	.admin-hit-list .uk-width-medium-1-3:not(:nth-child(1)){
+		/*margin-top: 20%;*/
+		margin-bottom: 5% !important;
+	}
+	#admin-hit-list .challenge-matter .unlck{
+		width:50%;
+	}
 }

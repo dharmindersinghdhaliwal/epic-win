@@ -23,7 +23,7 @@ function display_spotlight_challenge($atts =''){
 			$post_meta	=	get_post_meta($pid,'_dpa_points',true);
 			$uid	      =	get_current_user_id();	?>
       <div class="uk-width-medium-1-3">
-      	<article id="item-<?php echo $pid; ?>" <?php post_class('uk-article rltv'); ?> data-permalink="<?php echo get_permalink($pid); ?>">
+      	<article id="item-<?php echo $pid; ?>" class="uk-article rltv lesson type-lesson status-publish hentry post" data-permalink="<?php echo get_permalink($pid); ?>">
     <?php  if(dpa_has_user_unlocked_achievement($uid,$pid)){ ?>
             <style>	.unlck {left: 0;position: absolute;}</style>
             <img class="unlck" src="<?php echo get_site_url(); ?>/wp-content/themes/maxx-fitness-child-theme/unlock.png" alt="<?php echo  $post->post_title;?>"><?php

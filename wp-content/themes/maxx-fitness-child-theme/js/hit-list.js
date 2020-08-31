@@ -35,7 +35,7 @@ var add_challenge_to_hit_list=function(challenge_id,btn){
       swal({
         title:"",
         text:"<h3>Please wait...</h3>",
-        imageUrl:window.location.hostname+'/wp-content/plugins/wp-ultimate-exercise-premium/core/img/write.gif',
+        imageUrl:'/wp-content/plugins/wp-ultimate-exercise-premium/core/img/write.gif',
         showConfirmButton:false,
         html: true
       });
@@ -65,18 +65,14 @@ var add_challenge_to_hit_list=function(challenge_id,btn){
 /*-----	REMOVE CHELLENGE FROM HIT LIST	-----*/
 var remove_hit_list=function(challenge_id,btn){
   $.ajax({
-    type:"POST",
-    url:wp_ajax_url(),
-    data:{
-      'action':'my_challenge_hit_list',
-      'challenge_id':challenge_id,
-      'act':'remove_hit_list'
+    type:"POST",url:wp_ajax_url(),
+    data:{'action':'my_challenge_hit_list','challenge_id':challenge_id,'act':'remove_hit_list'
     },
     beforeSend: function() {
       swal({
         title:"",
         text:"<h3>Please wait...</h3>",
-        imageUrl:window.location.hostname+'/wp-content/plugins/wp-ultimate-exercise-premium/core/img/write.gif',
+        imageUrl:'/wp-content/plugins/wp-ultimate-exercise-premium/core/img/write.gif',
         showConfirmButton:false,
         html: true
       });
@@ -114,9 +110,10 @@ $(document).on('click','.serch_hit_list', function(){
 });
 $(document).on('click','.unlock-achievement-btn', function(){
   var challenge_id	=	$(this).attr('id');
-  var uid	= $('#hit_email').val();
-  var dpa_code  = $(this).attr('dpa_code');
-  unlock_achievement_admin(challenge_id,uid,dpa_code);
+  var uid	          = $('#hit_email').val();
+  var dpa_code      = $(this).attr('dpa_code');
+  var btn           = $(this);
+  unlock_achievement_admin(challenge_id,uid,dpa_code,btn);
 });
 $(document).on('click','.remove', function(){
   var btn = $(this);
@@ -127,18 +124,12 @@ var search_hit_list_by_user_name=function(uid){
   $.ajax({
     type:"POST",
     url:wp_ajax_url(),
-    data:{
-      'action':'challenges_admin_ajax',
-      'uid':uid,
-      'act':'retrive_hit_list_challenges'
-    },
+    data:{ 'action':'challenges_admin_ajax','uid':uid, 'act':'retrive_hit_list_challenges' },
     beforeSend: function() {
       swal({
-        title:"",
-        text:"<h3>Please wait...</h3>",
-        imageUrl:window.location.hostname+'/wp-content/plugins/wp-ultimate-exercise-premium/core/img/write.gif',
-        showConfirmButton:false,
-        html:true
+        title:"", text:"<h3>Please wait...</h3>",
+        imageUrl:'/wp-content/plugins/wp-ultimate-exercise-premium/core/img/write.gif',
+        showConfirmButton:false, html:true
       });
     },
     success:function(data){
@@ -148,52 +139,38 @@ var search_hit_list_by_user_name=function(uid){
         $('#admin-hit-list').html(data);
       }else{
         swal({
-          title: "",
-          text: "<h1>OOPS !</h1> <i class='fa fa-exclamation-triangle'aria-hidden='true' style='color: red;display: block;font-size: 90px;'></i>Something is going wrong",
-          timer: 2000,
-          html: true,
-          showConfirmButton: false
+          title: "", text: "<h1>OOPS !</h1> <i class='fa fa-exclamation-triangle'aria-hidden='true' style='color: red;display: block;font-size: 90px;'></i>Something is going wrong",
+          timer: 2000, html: true, showConfirmButton: false
         });
     	}
     }
   });
 };
-var unlock_achievement_admin=function(challenge_id,uid,dpa_code){
+var unlock_achievement_admin=function(challenge_id,uid,dpa_code,btn){
    $.ajax({
-     type:"POST",
-     url:wp_ajax_url(),
-     data:{
-       'action':'challenges_admin_ajax',
-       'uid':uid,
-       'pid':challenge_id,
-       'dpa_code':dpa_code,
-       'act':'unlock_challenge_ajax'
-     },
+     type:"POST", url:wp_ajax_url(),
+     data:{'action':'challenges_admin_ajax','uid':uid,'pid':challenge_id, 'dpa_code':dpa_code, 'act':'unlock_challenge_ajax' },
      beforeSend: function() {
        swal({
-         title:"",
-         text:"<h3>Please wait...</h3>",
-         imageUrl:window.location.hostname+'/wp-content/plugins/wp-ultimate-exercise-premium/core/img/write.gif',
+         title:"", text:"<h3>Please wait...</h3>",
+         imageUrl:'/wp-content/plugins/wp-ultimate-exercise-premium/core/img/write.gif',
          showConfirmButton:false,
          html:true
        });
      },
      success:function(result){
-       var aData	=jQuery.parseJSON(result);
+       var aData	= jQuery.parseJSON(result);
        if(aData.response==1){
          swal({
-           title: "",
-           text: "<h3>Congratulations !</h3>Achievement Unlocked Successfully",
+           title: "", text: "<h3>Congratulations !</h3>Achievement Unlocked Successfully",
            imageUrl:window.location.hostname+'/wp-content/plugins/wp-ultimate-exercise-premium/core/img/x2_jump.gif', timer: 4000,
-           html: true,
-           showConfirmButton: false
+           html: true, showConfirmButton: false
          });
+         btn.hide();
        }else{
          swal({
-           title: "",
-           text: "<h1>OOPS !</h1> <i class='fa fa-exclamation-triangle'aria-hidden='true' style='color: red;display: block;font-size: 90px;'></i>Please Try again!",
-           timer: 2000,
-           html: true,
+           title: "", text: "<h1>OOPS !</h1> <i class='fa fa-exclamation-triangle'aria-hidden='true' style='color: red;display: block;font-size: 90px;'></i>Please Try again!",
+           timer: 2000, html: true,
            showConfirmButton: false
          });
        }

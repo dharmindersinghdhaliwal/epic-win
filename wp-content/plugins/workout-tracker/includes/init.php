@@ -8,7 +8,7 @@ class EWP_WT_Init{
         $class = __CLASS__;
         new $class;
     }
-	
+
 	function __construct(){
 		add_shortcode('tracker_table',array($this,'tracker_table_program_data'));
 		add_shortcode('strength_data',array($this,'tracker_table_strength_data'));
@@ -28,12 +28,12 @@ class EWP_WT_Init{
 	#-------------#
 	# Register JS #
 	#-------------#
-	function js() {		
+	function js() {
 		wp_register_script('popupoverlay',WT_PLUGIN_DIR.'js/jquery.popupoverlay.js',array('jquery'),'0.0.1',false);
-		wp_enqueue_script('popupoverlay');		
+		wp_enqueue_script('popupoverlay');
 	}
-	
-	public function display_workout_tracker(){		
+
+	public function display_workout_tracker(){
 		if(is_user_logged_in()) {
 			$user = new WP_User(get_current_user_id());
 			if ( !empty( $user->roles ) && is_array( $user->roles ) ) {
@@ -55,7 +55,7 @@ class EWP_WT_Init{
 		<a href="javascript:void(0)"class="submit_workout_notes"style="display:none">Submit</a>
 		<div class="workout-main" style="display:none"> <!--workout-main Starts-->
 		<?php echo do_shortcode('[Workout_tracker_tab]'); ?>
-		
+
 			<div id="loadingm" class="modal">
 				  <div class="modal-content">
 					<div class="modal-header">
@@ -63,13 +63,13 @@ class EWP_WT_Init{
 					</div>
 					<div class="modal-body">
 					<img src='<?php echo esc_url( plugins_url( 'img/x2_writing.gif', dirname(__FILE__) ) );?>' width="150" height="150" />
-					</div>					
+					</div>
 				  </div>
 			</div>
-			
+
 			<div id="slide" class="well">
 				<button class="slide_close btn btn-default">Close</button>
-			<?php 	echo do_shortcode('[display_work_notes]');?>
+			<?php echo do_shortcode('[display_work_notes]');?>
 			</div>
 		<?php
 
@@ -79,19 +79,19 @@ class EWP_WT_Init{
 		?>
             <!-- The Modal -->
 		<div id="myModal" class="modal"></div>
-       
+
 		</div> <!--workout-main Ends-->
 	<?php
 	}
 	public function payment_method_field(){
 		?>
-			 <div class="paymentStyle"> 
+			 <div class="paymentStyle">
 				<span>Payment Style</span>
 				<input type="text" id="paymentStyle" value="<?php get_user_meta(get_current_user_id(),'Workout_Payment_Method' )?>">
 				<a href="javascript:void(0)" id="updateMethod">Update</a>
 			</div>
 		<?php
 	}
-	
+
 }
 add_action('plugins_loaded',array('EWP_WT_Init','init'));

@@ -15,18 +15,19 @@ require_once('notificationarea.php');
 require_once('classes-schedule.php');
 require_once('epic-attendance.php');
 require_once('class-user-unlock-achievement-widget.php');
+require_once('inc/register-epic-tracking.php');
 require_once('epic-option.php');
 
 /*-----------------------------------------------------------------------*/
 /* EPIC WIN ACHIEVEMENTS WIDGET CLASS TO DISPLAY ON MEMBER PROFILE PAGE */
 /*---------------------------------------------------------------------*/
 class MS_Epic_Win_Achievements_Widget extends WP_Widget {
-	
+
 	function __construct() {
 		parent::__construct('MS_Epic_Win_Achievements_Widget',__('Achievements Widget for Profile Page', 'epic'),
 		array( 'description' => __( 'This widget show category icon from Achievements', 'epic')));
 	}
-	
+
 	public function widget($args, $instance){
 		$title = apply_filters( 'widget_title', $instance['title'] );
 		echo $args['before_widget'];
@@ -35,7 +36,7 @@ class MS_Epic_Win_Achievements_Widget extends WP_Widget {
 		echo do_shortcode('[memberachiev]');
 		echo $args['after_widget'];
 	}
-	
+
 	public function form($instance ){
 		if(isset($instance['title'])){
 			$title = $instance[ 'title' ];
@@ -48,7 +49,7 @@ class MS_Epic_Win_Achievements_Widget extends WP_Widget {
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($title); ?>"/>
 		</p><?php
 	}
-	
+
 	public function update($new_instance,$old_instance){
 		$instance = array();
 		$instance['title']=(!empty($new_instance['title'])) ? strip_tags($new_instance['title']):'';
@@ -140,7 +141,7 @@ function ms_ad_memberachiev_style(){
 	}
 	?>
 	<script>
-		jQuery(document).ready(function(e){(function($){			
+		jQuery(document).ready(function(e){(function($){
 			$( document ).on('hover','.aidclick',function(){$('.aidclick span').each(function(index, element){$(this).remove()})});
 			$( document ).on('hover','.aidclick img',function(){
 				var alt=$(this).attr('alt');
@@ -151,8 +152,8 @@ function ms_ad_memberachiev_style(){
 					});
 				});
 			});
-			
-			$( document ).on('mouseout','.aidclick img',function(){			
+
+			$( document ).on('mouseout','.aidclick img',function(){
 				$(this).parent('a').remove('.aidclicimg');
 			});
 		}(jQuery))});
@@ -196,7 +197,7 @@ function ms_get_current_user_achivment_from_click_cat(){
 					<a class="aidclick" term="<?php echo $term; ?>" uid="<?php echo $uid; ?>" href="javascript:void(0)" achiun="1" aid="<?php echo $id; ?>"><?php echo get_the_post_thumbnail($id, 'dpa-thumb',array('alt'=>dpa_get_achievement_title($id))); ?></a>
 				</li>
 	<?php 	}
-			else{ 
+			else{
 				?>
 				<li>
 					<a class="aidclick" term="<?php echo $term; ?>" uid="<?php echo $uid; ?>" href="javascript:void(0)" achiun="0" aid="<?php echo $id; ?>"><img src="<?php echo plugins_url('img/red.png',__FILE__); ?>" alt="<?php echo dpa_get_achievement_title($id); ?>"/></a>
@@ -210,7 +211,7 @@ function ms_get_current_user_achivment_from_click_cat(){
 
 //	Initialize shortcode for user unlock redeem achievement
 add_shortcode( 'user_redeem_achievement','user_redeem_achievement_block' );
-function user_redeem_achievement_block( $atts = array() ){	
+function user_redeem_achievement_block( $atts = array() ){
 	if( isset( $_POST[ 'unlock_redemption' ])){
 		$redemption_code = isset($_POST['dpa_code']) ? sanitize_text_field(stripslashes($_POST['dpa_code'])):'';
 		$redemption_code = apply_filters('dpa_form_redeem_achievement_code',$redemption_code);
@@ -227,16 +228,16 @@ function user_redeem_achievement_block( $atts = array() ){
 					restore_current_blog();
 			}
 			else{
-				$users 	= explode( '-', $_POST[ 'sqr' ] );				
+				$users 	= explode( '-', $_POST[ 'sqr' ] );
 
 				foreach ($achievements as $achievement_obj ){
-					$progress_obj = array();					
-					foreach( $users as $user_id ){						
+					$progress_obj = array();
+					foreach( $users as $user_id ){
 						$progress_obj = array();
 						$existing_progress = array();
 						$existing_progress	=	dpa_get_progress(array('author' => $user_id,'post_parent' => $achievement_obj->ID ) );
-						//	echo '<pre>';print_r( $existing_progress);exit; 
-						
+						//	echo '<pre>';print_r( $existing_progress);exit;
+
 						foreach ( $existing_progress as $progress ) {
 							if ( $achievement_obj->ID === $progress->post_parent ){
 								if ( dpa_get_unlocked_status_id() === $progress->post_status )
@@ -246,10 +247,10 @@ function user_redeem_achievement_block( $atts = array() ){
 								break;
 							}
 						}
-						if(false !== $progress_obj){							
+						if(false !== $progress_obj){
 							dpa_maybe_unlock_achievement($user_id,'skip_validation',$progress_obj,$achievement_obj);
 						}
-					}	
+					}
 			}
 			if(is_multisite() && dpa_is_running_networkwide())
 				restore_current_blog();
@@ -259,14 +260,14 @@ function user_redeem_achievement_block( $atts = array() ){
 	<form role="search" method="post" id="dpa-user-unlockredemption-form" name="dpa-user-unlockredemption-form">
 		<?php do_action( 'dpa_template_notices' ); ?>
 		<input type="hidden" name="unlock_redemption" id="unlock_redemption" value="1"/>
-		<p>			
-			<label for="dpa-redemption-code" style="color:#fff;"><?php _e( 'Select User:', 'dpa' ); ?></label>			
+		<p>
+			<label for="dpa-redemption-code" style="color:#fff;"><?php _e( 'Select User:', 'dpa' ); ?></label>
 			<!--<input class="uname" id="uname" type="text" placeholder="User Name"><input class="uid" type="hidden" name="uid" id="uid">
-			-->			
+			-->
 			<input name='tags3-1' placeholder="Search Users">
           	<input type="hidden" name="sqr" id="sqr"/>
 		</p>
-		<p>	
+		<p>
 			<label for="dpa-redemption-code" style="color:#fff;"><?php _e( 'Enter code:', 'dpa' ); ?></label>
 			<input id="dpa-redemption-code" name="dpa_code" type="text" required />
 		</p>
@@ -274,24 +275,24 @@ function user_redeem_achievement_block( $atts = array() ){
 			<input class="button" id="dpa-redemption-submit" value="<?php esc_attr_e( 'Unlock', 'dpa' ); ?>" type="submit" />
 		</p>
 		<?php //dpa_redeem_achievement_form_fields(); ?>
-	</form>	
+	</form>
 	<!--
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" href="https://yaireo.github.io/tagify/dist/tagify.css">
-    <script src="https://yaireo.github.io/tagify/dist/tagify.min.js"></script>    
+    <script src="https://yaireo.github.io/tagify/dist/tagify.min.js"></script>
     <script src="https://yaireo.github.io/tagify/dist/jQuery.tagify.min.js"></script>
 	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	-->
 	<link rel="stylesheet" href="<?php echo plugin_dir_url( __FILE__ ); ?>css/tagify.css">
-    <script src="<?php echo plugin_dir_url( __FILE__ ); ?>js/tagify.min.js"></script>    
+    <script src="<?php echo plugin_dir_url( __FILE__ ); ?>js/tagify.min.js"></script>
     <script src="<?php echo plugin_dir_url( __FILE__ ); ?>js/jQuery.tagify.min.js"></script>
 
 	<script type="text/javascript">
-		jQuery( document ).ready(function(){			
+		jQuery( document ).ready(function(){
 			/*
 			var availableTags = <?php echo epic_get_list_of_all_user_for_nuclear_code(); ?>;
 			console.log( availableTags );
-			
+
 			jQuery('.uname').autocomplete({
 				source:availableTags,select:function(event,ui){event.preventDefault();jQuery('.uid').val(ui.item.value);jQuery(this).val(ui.item.label)},
 			});
@@ -308,14 +309,14 @@ function user_redeem_achievement_block( $atts = array() ){
 					alert( 'Please enter achievement code.' );
 					jQuery('#dpa-redemption-code').focus();
 					return false;
-				}				
-			});			
-		});		
-	</script>	
+				}
+			});
+		});
+	</script>
 	<script type="text/javascript">
-            jQuery( document ).ready(function(){   
-            	var availableTags = <?php echo epic_get_list_of_all_user_for_nuclear_code(); ?>;    
-            	console.log( 'Js Files Updated' );    	
+            jQuery( document ).ready(function(){
+            	var availableTags = <?php echo epic_get_list_of_all_user_for_nuclear_code(); ?>;
+            	console.log( 'Js Files Updated' );
 
                 var tagify = new Tagify(document.querySelector('input[name=tags3-1]'), {
                     delimiters : null,
@@ -341,7 +342,7 @@ function user_redeem_achievement_block( $atts = array() ){
                 tagify.on('add',function(e,tag){
 	                var allv =  tagify.value;
 	                $.each(allv,function(i){
-	                    sv=allv[i].user_id;                                                           
+	                    sv=allv[i].user_id;
 	                    var search_value =  jQuery('#sqr').val();
 
 	                    if( search_value == ''){
@@ -354,12 +355,12 @@ function user_redeem_achievement_block( $atts = array() ){
 	                    }
 
 	                });
-	            });               
+	            });
             });
         </script>
     <style type="text/css">
         .tagify.countries .tagify__input{ min-width:175px; }
-        .tagify.countries tag{ white-space:nowrap; }            
+        .tagify.countries tag{ white-space:nowrap; }
     </style>
 <?php
 }
@@ -369,7 +370,7 @@ add_action( 'show_user_profile', 'retire_user_profile_field' );
 add_action( 'edit_user_profile', 'retire_user_profile_field' );
 
 /**
- *	This function add the retire user field to user profle  	
+ *	This function add the retire user field to user profle
  *
  */
 
@@ -384,7 +385,7 @@ function retire_user_profile_field( $user ){
 			</td>
 		</tr>
 	</table>
-<?php 
+<?php
 }
 
 //	Saving Retire User field to database
@@ -397,7 +398,7 @@ add_action( 'edit_user_profile_update', 'save_retire_user_profile_field' );
 
 function save_retire_user_profile_field( $user_id ) {
 	if ( !current_user_can( 'edit_user', $user_id ) ) { return false; }
-	//	echo '<pre>'; print_r( $_POST ); exit; 
+	//	echo '<pre>'; print_r( $_POST ); exit;
 
 	update_user_meta( $user_id, 'retire_user', $_POST['retire_user'] );
 }
@@ -427,13 +428,13 @@ function add_custom_user_fields($user ){
 	if ( !current_user_can( 'administrator', $user->ID ) )
         return false;
 
-	
+
 	$ice_client 	=	esc_attr( get_the_author_meta( 'ice_client', $user->ID ) );
 	$pt_client 		=	esc_attr( get_the_author_meta( 'pt_client', $user->ID ) );
 	$fire_client 	=	esc_attr( get_the_author_meta( 'fire_client', $user->ID ) );
-	
-    ?>    
-    <h3>Client Product and Services</h3>    
+
+    ?>
+    <h3>Client Product and Services</h3>
     <table class="form-table">
         <tr>
             <th><label for="dropdown">ICE Client</label></th>
@@ -454,7 +455,5 @@ function add_custom_user_fields($user ){
             </td>
         </tr>
     </table>
-<?php 
+<?php
 }
-
-?>

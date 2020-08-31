@@ -33,6 +33,8 @@ if ( defined('TT_WARP_PLUGIN_URL') ) {
 	## By this Way We user Shortcode [widget widget_name="DPA_(Widget name here)"]
 function widget($atts) {
 	global $wp_widget_factory;
+  $id='';
+  $instance= '';
 	extract(shortcode_atts(array(
 								'widget_name' => FALSE
 								), $atts));
@@ -160,14 +162,6 @@ else window.onload = downloadJSAtOnload;
 	}
 }
 add_action('wp_head','ajax_url_for_js');
-
-function epic_admin_script(){
-  ?>
-  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.9.0.js"></script>
-  <?php
-}
-add_action('admin_head','epic_admin_script');
 
 // Ignore depcreciated constructor notices
 add_filter('deprecated_constructor_trigger_error', '__return_false');

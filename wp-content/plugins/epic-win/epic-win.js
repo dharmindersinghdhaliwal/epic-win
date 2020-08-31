@@ -11,17 +11,18 @@ jQuery(document).ready(function(e){(function($){
 		});
 		$('.weight input').addClass('reqrd');
 		$('.ettvaluse .prntli:first-child').addClass('dateli');
-		$('.dateli input').addClass('datepicker');
+		$('.dateli input').last().addClass('datepicker');
 		$( ".datepicker" ).datepicker({ dateFormat: 'dd-mm-yy' }).val();
-		$('.dateli input').addClass('date-input');
+		$('.datepicker').addClass('date-input');
 		$('.undo').show(200);
+		swal({title:"",text:"New column added!",type:"success"});
 	});
 
 	$('.undo').click(function(e){
 		$('.gettotal').hide();
 		$('.body_fat').hide();
 		trow		=	$('.ettvaluse .firstli input').length;
-		ctrow	=	trow-1;
+		ctrow		=	trow-1;
 		sumrow 	=	('ettvaluse li').length;
 		$('.ettvaluse li').each(function(index, element) {
 			$(this).children('.inptxt'+ctrow).remove();
@@ -34,7 +35,13 @@ jQuery(document).ready(function(e){(function($){
 	});
 
 	$(".epusr_track_edit,.epusr_track_add").click(function(){
-		$(".rdonly").attr("readonly",false);
+
+		swal({title:"",text:"Go ahead to customize the fields!",type:"success"});
+
+			$('.ettvaluse .prntli:first-child').addClass('dateli');
+			$('.dateli input').addClass('datepicker').addClass('date-input');
+			$(".rdonly").attr("readonly",false);
+
 	});
 
 	$(".ettouter").on('click','.epusr_track_update',function(){
@@ -73,10 +80,10 @@ jQuery(document).ready(function(e){(function($){
 						if(data){
 							if(data==1){
 								$('#loadingm h2').html('Success !');
-								$('#loadingm .modal-body').html('<img src="http://members.epicwinpt.com.au/wp-content/themes/maxx-fitness-child-theme/x2_jump.gif">');
+								$('#loadingm .modal-body').html('<img src="/wp-content/themes/maxx-fitness-child-theme/x2_jump.gif">');
 								$('#loadingm').delay(5000).hide(0, function(){
 									$('#loadingm h2').html('Loading....');
-									$('#loadingm .modal-body').html('<img src="http://members.epicwinpt.com.au/wp-content/themes/maxx-fitness-child-theme/x2_writing.gif">');
+									$('#loadingm .modal-body').html('<img src="/wp-content/themes/maxx-fitness-child-theme/x2_writing.gif">');
 								});
 								location.reload();
 							}
@@ -89,8 +96,9 @@ jQuery(document).ready(function(e){(function($){
 			}
 		}
 	});
-	
+
 	$('.client_search').click(function(){
+
 		$('.comninpt').remove();
 		$('.gettotal').remove();
 		$('.body_fat').remove();
@@ -103,10 +111,10 @@ jQuery(document).ready(function(e){(function($){
 			},
 			success:function(data){
 				$('#loadingm h2').html('Success !');
-				$('#loadingm .modal-body').html('<img src="http://members.epicwinpt.com.au/wp-content/themes/maxx-fitness-child-theme/x2_jump.gif">');
+				$('#loadingm .modal-body').html('<img src="/wp-content/themes/maxx-fitness-child-theme/x2_jump.gif">');
 				$('#loadingm').delay(5000).hide(0, function(){
 					$('#loadingm h2').html('Loading....');
-					$('#loadingm .modal-body').html('<img src="http://members.epicwinpt.com.au/wp-content/themes/maxx-fitness-child-theme/x2_writing.gif">');
+					$('#loadingm .modal-body').html('<img src="/wp-content/themes/maxx-fitness-child-theme/x2_writing.gif">');
 				});
 				if(data){
 					var parsed	=	JSON.parse(data);
@@ -129,12 +137,12 @@ jQuery(document).ready(function(e){(function($){
 					var wgt_lngth	=	$('.weight input').length;
 					k=0;
 					$('.weight input').each(function(index, element) {
-						$(this).addClass('wegt_count'+k);
+						$(this).addClass('wegt_count').addClass('wegt_count'+k);
 						k++;
 					});
 					var trow	=	$('.ettvaluse .firstli input').length;
-					var tprt	=	$('.tprt').val();	//'<?php //echo count($parentt)-2; ?>';
-					var pJSON	=	$('.pJSON').val();//'<?php //echo json_encode($p21); ?>';
+					var tprt	=	$('.tprt').val();
+					var pJSON	=	$('.pJSON').val();
 					var p21	=	JSON.parse(pJSON);
 					for(m=0;m<p21.length;m++){
 						var pid	=	p21[m];
@@ -146,12 +154,12 @@ jQuery(document).ready(function(e){(function($){
 					}
 					var skin_totl;
 					var i=1;
-					
+
 					$('.skin_total_count2').each(function(index, element) {
-						var skin_folds_total	=	$(this).val();
-						var weight		=	$('.wegt_count'+i).val();
-						var age			=	$('#client_age').val();
-  						var gender		=	$('#client_gender').val();
+						var skin_folds_total		 =	$(this).val();
+						var weight							 =	$('.wegt_count'+i).val();
+						var age									 =	$('#client_age').val();
+  					var gender							 =	$('#client_gender').val();
 						var skin_folds_sqr_total = parseFloat(squared(skin_folds_total));
 						if(gender=='Male'){
 							var Db = 1.112 - (.00043499 * skin_folds_total) + (.00000055 * skin_folds_sqr_total) - (.00028826 * parseInt(age));
@@ -159,22 +167,24 @@ jQuery(document).ready(function(e){(function($){
 						else if(gender=='Female') {
 							var Db = 1.097 - (.00046971 * skin_folds_total) + (.00000056 * skin_folds_sqr_total) - (.00012828 * parseInt(age));
 						}
-						var body_fat_per	=	parseFloat(((4.95/Db) - 4.5) * 100);
+						var body_fat_per		=	parseFloat(((4.95/Db) - 4.5) * 100);
 						var total_body_fat	=	parseFloat((body_fat_per/100) * weight);
 						var lean_body_mass	=	parseFloat(weight-total_body_fat);
 						$('.body-fat').append('<input type="text"readonly="readonly" value="'+body_fat_per.toFixed(2)+'" class="body_fat">');
 						$('.body-mass').append('<input type="text"readonly="readonly" value="'+lean_body_mass.toFixed(2)+'"class="body_fat">');
 						i++;
-					});					
+					});
+
 				}
+					$('.add_col,.undo,.epusr_track_update,.epusr_track_edit').show();
 			}
 		});
 	});
-	
+
 	$('ul.ettvaluse').each(function(i,e){
 		$('li .inptxt:first',e).addClass('current');
 	});
-	
+
 	function getValues(selector){
 		var tempValues = {};
 		$(selector).each(function(){
@@ -183,11 +193,11 @@ jQuery(document).ready(function(e){(function($){
 		});
 		return tempValues;
 	}
-	
+
 	function squared(num){
 		return num*num;
 	}
-	
+
 	$('.client_search').click(function(){
 		var uid=$('#client_email').val();
 		jQuery.ajax({
@@ -197,7 +207,7 @@ jQuery(document).ready(function(e){(function($){
 			}
 		});
 	});
-	
+
 	function sum(input){
 		if (toString.call(input) !== "[object Array]")
 			return false;

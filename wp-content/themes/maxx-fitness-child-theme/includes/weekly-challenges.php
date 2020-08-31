@@ -102,11 +102,12 @@ function display_week_challenge( $atts = ''){
     }
 
   	$posts = get_posts($args);
-	?> <div class="uk-grid tm-page-workouts" data-uk-grid-match="" data-uk-grid-margin="">
-<?php if($posts){
+    $output = '';
+	  $output.= '<div class="uk-grid tm-page-workouts" data-uk-grid-match="" data-uk-grid-margin="">';
+    if($posts){
       $uid	         =	get_current_user_id();
-      $challenge_ids =json_decode(get_user_meta($uid,'challenge_hit_list',true));
-      
+      $challenge_ids =  json_decode(get_user_meta($uid,'challenge_hit_list',true));
+
       global $paged;
       $paged      = ($paged == 0) ? 1 : $paged;
       $total		  =	count($posts);
@@ -118,64 +119,62 @@ function display_week_challenge( $atts = ''){
 
       $myposts 	= array_slice($posts,$offset,$per_page );
 			foreach($myposts as $post){
+
 				$pid	      =	$post->ID;
-				$post_meta	=	get_post_meta($pid,'_dpa_points',true);	?>
+				$post_meta	=	get_post_meta($pid,'_dpa_points',true);
 
-        <div class="uk-width-medium-1-3">
-        	<article id="item-<?php echo $pid; ?>" <?php post_class('uk-article rltv'); ?> data-permalink="<?php echo get_permalink($pid); ?>">
-            <?php  if(dpa_has_user_unlocked_achievement($uid,$pid)){ ?>
-                <style>	.unlck {left: 0;position: absolute;}</style>
-                 <img class="unlck" src="<?php echo get_site_url(); ?>/wp-content/themes/maxx-fitness-child-theme/unlock.png" alt="<?php echo  $post->post_title;?>">
-            <?php  }?>
-            <a class="uk-align-left" href="<?php echo get_permalink($pid); ?>" ><?php echo get_the_post_thumbnail($pid);?></a>
-            <div>
-            <div class="uk-panel uk-width-1-1">
+        $output.= '<div class="uk-width-medium-1-3 uk-width-5-10 achievement mobile-two-cols">';
+        	$output.= '<article id="item-'.$pid.'" class="uk-article rltv post-'.$pid.' lesson type-lesson status-publish hentry post" data-permalink="'. get_permalink($pid).'">';
+            if(dpa_has_user_unlocked_achievement($uid,$pid)){
+              $output.= '<style>	.unlck {left: 0;position: absolute;}</style>
+              <img class="unlck" src="'.get_site_url().'/wp-content/themes/maxx-fitness-child-theme/unlock.png" alt="'.$post->post_title.'">';
+            }
+            $output.= '<a class="uk-align-left" href="'.get_permalink($pid).'" >'.get_the_post_thumbnail($pid).'</a>';
+            $output.= '<div>
+            <div class="uk-panel uk-width-1-1">';
 
-              <?php
               /***Check if Hit List button is enabled from shortcode**/
               if($a[ 'hit_list' ] == 'yes'){
 
           			if(empty($challenge_ids) || !in_array(intval($pid),$challenge_ids)){
-          				if(!dpa_has_user_unlocked_achievement($uid,$pid)){  ?>
-          					<a href="javascript:void(0)" class="hit-list" id="<?php echo $pid;?>">
-                      <i class="fa fa-plus" aria-hidden="true" ></i>HIT LIST
-                    </a>
-                    <?php
+          				if(!dpa_has_user_unlocked_achievement($uid,$pid)){
+
+          					$output.= '<a href="javascript:void(0)" class="hit-list" id="'.$pid.'">
+                      <i class="fa fa-plus" aria-hidden="true" ></i>HIT LIST </a>';
           				}
           			}
           			else{
-          				if(!dpa_has_user_unlocked_achievement($uid,$pid)){  ?>
-          					<a href="javascript:void(0)" class="remove" id="<?php echo $pid; ?>">
-                      <i class="fa fa-trash fa-6" aria-hidden="true"></i>Remove From list
-                    </a>
-                    <?php
+          				if(!dpa_has_user_unlocked_achievement($uid,$pid)){
+
+          					$output.= '<a href="javascript:void(0)" class="remove" id="'.$pid.'">
+                      <i class="fa fa-trash fa-6" aria-hidden="true"></i>Remove From list</a>';
           				}
           			}
 
               }
-              ?>
-              <div class="uk-grid">
-                <div class="uk-width-1-3">
-                  <h6 class="tm-uppercase">Name</h6>
-                  <span class="tm-uppercase"> <?php echo $post->post_title;?></span>
-                </div>
-                <div class="uk-width-1-3">
-                  <h6 class="tm-uppercase">Category</h6>
-                  <span class="tm-uppercase"><?php echo get_cat_name( $challenge_category_id ); ?></span>
-                </div>
-                <div class="uk-width-1-3">
-                  <h6 class="tm-uppercase">Points</h6>
-                  <span class="tm-uppercase"><?php echo $post_meta ;?></span>
-                </div>
-              </div>
-            </div>
-        	 </div>
-       	 </article>
-        </div><?php
+              $output.= '<div class="uk-grid">';
+                $output.= '<div class="uk-width-1-3 uk-width-small-2-5-1">';
+                  $output.= '<h6 class="tm-uppercase">Name</h6>';
+                  $output.= '<span class="tm-uppercase">'.$post->post_title.'</span>';
+                $output.= '</div>';
+                $output.= '<div class="uk-width-1-3 uk-width-small-2-5-1">';
+                  $output.= '<h6 class="tm-uppercase">Category</h6>';
+                  $output.= '<span class="tm-uppercase">'.get_cat_name( $challenge_category_id ).'</span>';
+                $output.= '</div>';
+                $output.= '<div class="uk-width-1-3 uk-width-small-2-5-1">';
+                  $output.= '<h6 class="tm-uppercase">Points</h6>';
+                  $output.= '<span class="tm-uppercase">'.$post_meta.'</span>';
+                $output.= '</div>';
+              $output.= '</div>';
+            $output.= '</div>';
+        	 $output.= '</div>';
+       	 $output.= '</article>';
+        $output.= '</div>';
       }
-      echo epicPagination($totalPages);
+      $output.= epicPagination($totalPages);
 	 }else{
-     echo '<h2>'.__('No Record Found','epic').'</h2>';
+     $output.= '<h2>'.__("No Record Found","epic").'</h2>';
    }
-?></div><?php
+   $output.= '</div>';
+   return  $output;
 }

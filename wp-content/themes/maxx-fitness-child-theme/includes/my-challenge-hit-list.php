@@ -31,7 +31,7 @@ class My_Challenge_Hit_list{
 		ob_clean();
 		return $o;
 	}
-
+	
 	/*************************************************************************/
 	/*					AJAX FUNCTION FOR HIT LIST PROGRAM					*/
 	/***********************************************************************/
@@ -49,7 +49,7 @@ class My_Challenge_Hit_list{
 		}
 		die();
 	}
-
+	
 	/**  Update Challenges Ids
 	*
 	*	@param  new challenge id
@@ -59,10 +59,10 @@ class My_Challenge_Hit_list{
 	*	add latest challenges with previously added challenges
 	*/
 	public function update_challenge_for_user($uid,$challenge_id){
-		$challenge_ids	=json_decode(get_user_meta($uid,'challenge_hit_list',true));
+		$challenge_ids	=json_decode(get_user_meta($uid,'challenge_hit_list',true));		
 		if($challenge_ids==''){
 			$challenge_ids	=	array('0',$challenge_id);
-			$json = json_encode($challenge_ids);
+			$json = json_encode($challenge_ids);			
 			if(update_user_meta($uid,'challenge_hit_list',$json)){
 				$response = array( 'response' => 1 );
 			}
@@ -73,7 +73,7 @@ class My_Challenge_Hit_list{
 		else{
 			if(!in_array($challenge_id,$challenge_ids)){
 				array_push($challenge_ids,$challenge_id);
-				$json = json_encode($challenge_ids);
+				$json = json_encode($challenge_ids);			
 				if(	update_user_meta($uid,'challenge_hit_list',$json)){
 					$response = array( 'response' => 1 );
 				}else{

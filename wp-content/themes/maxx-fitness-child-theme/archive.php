@@ -17,29 +17,6 @@ get_header(); ?>
 	  $post_meta	=	get_post_meta($post_id,'_dpa_points',true);
 	  if($post_meta) { ?>
 <style>
-
-@media screen and (max-width:740px){
-	.uk-width-small-2-5-1{
-		width:50% !important;
-		padding: 5px 0px !important;
-	}
-	.uk-width-small-2-5-1 span.tm-uppercase{
-		font-size:8px !important;
-		line-height:1.5 !important;
-		    text-align: left;
-	}
-	.uk-width-small-2-5-1 h6.tm-uppercase{
-		font-size:10px !important;
-		    text-align: left;
-	}
-	.term-feats-of-strength .tm-page-workouts .hit-list, .term-feats-of-strength .tm-page-workouts .remove {
-		font-size: 10px;
-    	padding: 0 12px;
-	}
-	.term-feats-of-strength .tm-page-workouts .remove i {
-		padding : 5px;
-	}
-}
 </style>
 <div class="uk-grid tm-page-workouts" data-uk-grid-match="" data-uk-grid-margin="">
     <div class="uk-width-1-1">
@@ -49,7 +26,7 @@ get_header(); ?>
     </div> <?php
     while (have_posts()){
 		the_post();?>
-        <div class="uk-width-medium-1-3 ac-col uk-width-5-10"  pid="<?php echo get_the_ID()?> ">
+        <div class="uk-width-medium-1-3 ac-col uk-width-5-10 mobile-two-cols" pid="<?php echo get_the_ID()?> ">
             <article id="item-<?php echo get_the_ID();?>" <?php post_class('uk-article rltv'); ?> data-permalink="<?php the_permalink() ?>"><?php
 				$id	=	$post->ID;
 				$uid	=	get_current_user_id();
@@ -63,9 +40,9 @@ get_header(); ?>
             <?php }
 			else{?>
 				<a class="uk-align-left" href="<?php the_permalink() ?>" title="">
-          <img src="<?php echo get_stylesheet_directory_uri();?>/no-image.jpg">
-        </a>
-      <?php }	?>
+                <img src="<?php echo get_stylesheet_directory_uri();?>/no-image.jpg">
+               </a>
+          <?php }	?>
    <div>
        <div class="uk-panel uk-width-1-1 "><?php
 			$challenge_ids	=json_decode(get_user_meta($uid,'challenge_hit_list',true));

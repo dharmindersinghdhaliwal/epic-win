@@ -85,31 +85,33 @@ class Workout_Notes{
 
 	public function save_workout_notes(){
 		 if($_REQUEST){
-			 $act			=	$_REQUEST['act'];
+			 $act				=	isset($_REQUEST['act']) ? $_REQUEST['act'] :'';
 			 $metaid		=	get_current_user_id();
-			 $comment		=	$_POST['comment'];
-			 $pid			=	$_POST['postid'];
-			 $free_from	=	$_POST['freefrom'];
-			 $exercises	=	$_POST['exercises'];
-			 $num			=	$_POST['num'];
-			 $num			=	$num+1;
+			 $comment		=	isset($_POST['comment']) ? $_REQUEST['comment'] :'';
+			 $pid				=	isset($_POST['postid']) ? $_REQUEST['postid'] :'';
+			 $free_from	=	isset($_POST['freefrom']) ? $_REQUEST['freefrom'] :'';
+			 $exercises	=	isset($_POST['exercises']) ? $_REQUEST['exercises'] :'';
+			 $num				=	isset($_POST['num']) ? $_REQUEST['num'] :'';
+			 $num				=	$num+1;
 			 $json			=	json_encode($exercises);
-			 $inbetween	=	$_POST['inbetween'];
-			 $txtarea		=	$_POST['txtarea'];
-			 $rmwght		=	$_POST['rmwght'];
-			 $reps			=	json_encode($_POST['reps']);
-			 $calweight	=	json_encode($_POST['calweight']);
-			 $warmup		=	json_encode($_POST['warmup']);
-			 $time			=	date('h:i:s:a',current_time( 'timestamp', 0 ));			
+			 $inbetween	=	isset($_POST['inbetween']) ? $_REQUEST['inbetween'] :'';
+			 $txtarea		=	isset($_POST['txtarea']) ? $_REQUEST['txtarea'] :'';
+			 $rmwght		=	isset($_POST['rmwght']) ? $_REQUEST['rmwght'] :'';
+			 $reps			=	isset($_POST['reps']) ? json_encode($_POST['reps']) : '';
+			 $calweight	=	isset($_POST['calweight']) ? json_encode($_POST['calweight']) : '';
+			 $warmup		=	isset($_POST['warmup']) ? json_encode($_POST['warmup']) : '';
+			 $time			=	date('h:i:s:a',current_time( 'timestamp', 0 ));
 			 $date			=	date("M-d");
 			 if($act=='wt_save_trainer_notes'){
 				 if(!empty($comment)){
-					 update_post_meta($pid,'notes_date_'.$num,$date.'_'.$time);
-					 update_post_meta($pid,'trainer_who_commented_'.$num,$metaid);
-					 $notes	= update_post_meta($pid,'tnotes_'.$num,$comment);
-					 if($notes){echo '1';}
+
+					 echo update_post_meta($pid,'notes_date_'.$num,$date.'_'.$time);
+					 echo update_post_meta($pid,'trainer_who_commented_'.$num,$metaid);
+					 echo update_post_meta($pid,'tnotes_'.$num,$comment);
+
+					 die();
 				 }
-			 }			 
+			 }
 			 if($act=='wt_save_program_data_exercise'){
 				 Workout_Notes::wt_save_program_data_exercise($pid,$json);
 			}
@@ -166,7 +168,7 @@ class Workout_Notes{
 	public function get_workout_notes(){
 		if($_REQUEST){
 			$pid		=	$_REQUEST['pid'];
-			global $epic;	
+			global $epic;
 			$notes	=	Workout_Notes::get_number_of_comment($pid);
 			for($i=count($notes);$i>0;$i--){
 				$counter = $i-1;
@@ -175,7 +177,7 @@ class Workout_Notes{
 				echo '<div>'.$epic->pic($trainer_id, 'medium');
 				$user_info = get_userdata($trainer_id);
 				echo '<p class="work-name">'.$user_info->first_name .' '. $user_info->last_name.'</p>';
-				echo '<span>'.implode("   ",explode('_',$time)).'</span><br>';				
+				echo '<span>'.implode("   ",explode('_',$time)).'</span><br>';
 				echo '</div>';
 				$note		=	$notes[$counter][0];
 				echo '<p class="cnotes">'.get_post_meta($pid,$note,true).'</p>';
@@ -183,7 +185,7 @@ class Workout_Notes{
 		}
 		die();
 	}
-		
+
 	public function get_number_of_comment($pid){
 		global $wpdb;
 		$results = $wpdb->get_results(
@@ -191,7 +193,7 @@ class Workout_Notes{
 		WHERE meta_key LIKE 'tnotes_%'	AND post_id=".$pid,ARRAY_N);
 		return $results;
 	}
-	
+
 	public function work_tracking_search_box_for_notes(){
 		add_thickbox();	?>
 			<div style="margin:0 auto;padding-left:32%">
@@ -210,7 +212,7 @@ class Workout_Notes{
 			<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 			<script src="<?php echo WP_PLUGIN_URL; ?>/wp-ultimate-exercise-premium/core/dist/sweetalert.min.js"></script>
 			<script type="text/javascript">
-				
+
 				jQuery(document).ready(function(e){(function($){
 					var availableTags = <?php echo epic_get_list_of_all_user(); ?>;
 					jQuery('#search_user').autocomplete({
@@ -222,7 +224,7 @@ class Workout_Notes{
 							$('#work_age').val(ui.item.age)
 							var lbl=$(this).val(ui.item.label);
 						},
-					});					
+					});
 					jQuery('#search_user').keyup(function(){
 						var user_name =	jQuery.trim( jQuery( this ).val());
 						if( user_name == ''){
